@@ -1,0 +1,25 @@
+
+D
+java:S2189:""Add an end condition to this loop.(²ıæßşÿÿÿÿ8€‰°×/
+P
+java:S1144"3Remove this unused private "signInCustomer" method.(¡½ÜÖ8ÄµâÕ/
+S
+java:S11448"6Remove this unused private "signUpNewCustomer" method.(Êò«‹8€‰°×/
+H
+java:S1172"&Remove these unused method parameters.(‘´û®ùÿÿÿÿ8’‚«Ù/
+X
+java:S1854";Remove this useless assignment to local variable "bankDao".(Ç¤šì8€¿ğÕ/
+K
+java:S1125")Remove the literal "false" boolean value.(š“…ÿÿÿÿÿ8ÄİèÕ/
+X
+java:S1854L"<Remove this useless assignment to local variable "customer".(¯°¼p8½ŠØ/
+I
+java:S1481",Remove this unused "bankDao" local variable.(Ç¤šì8€¿ğÕ/
+I
+java:S1481L"-Remove this unused "customer" local variable.(¯°¼p8½ŠØ/
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8òÄÖ/
+Y
+java:S2589:"7Remove this expression which always evaluates to "true"(²ıæßşÿÿÿÿ8€‰°×/
+P
+java:S1481".Remove this unused "startMenu" local variable.(Ş–ìÛúÿÿÿÿ8ÍŸ¬Ù/
