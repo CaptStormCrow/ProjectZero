@@ -1,7 +1,14 @@
 
-K
-java:S1121".Extract the assignment out of this expression.(«ÑÀÙ8¼õöÖ/
-{
-java:S1450"YRemove the "connection" field and declare it as a local variable in the relevant methods.(’çù†ûÿÿÿÿ8¼õöÖ/
+W
+java:S1118":Add a private constructor to hide the implicit public one.(¶óøå8¾ãúı/
 O
-java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8¼õöÖ/
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8¾ãúı/
+X	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬8£‰üı/
+X	java:S125L"<This block of commented-out lines of code should be removed.(¤ÀÏ8ìß¦û/
+[
+java:S1854">Remove this useless assignment to local variable "connection".(«ÑÀÙ8¾ãúı/
+P
+java:S1068
+".Remove this unused "connection" private field.(’çù†ûÿÿÿÿ8¾ãúı/
+K
+java:S1121".Extract the assignment out of this expression.(«ÑÀÙ8¾ãúı/

@@ -1,25 +1,43 @@
 
-D
-java:S2189:""Add an end condition to this loop.(²ıæßşÿÿÿÿ8€‰°×/
+_
+java:S1854›"<Remove this useless assignment to local variable "employee".(Ğ÷è¤úÿÿÿÿ8‹ôÁ…‘/
 P
-java:S1144"3Remove this unused private "signInCustomer" method.(¡½ÜÖ8ÄµâÕ/
-S
-java:S11448"6Remove this unused private "signUpNewCustomer" method.(Êò«‹8€‰°×/
-H
-java:S1172"&Remove these unused method parameters.(‘´û®ùÿÿÿÿ8’‚«Ù/
-X
-java:S1854";Remove this useless assignment to local variable "bankDao".(Ç¤šì8€¿ğÕ/
-K
-java:S1125")Remove the literal "false" boolean value.(š“…ÿÿÿÿÿ8ÄİèÕ/
-X
-java:S1854L"<Remove this useless assignment to local variable "customer".(¯°¼p8½ŠØ/
+java:S1481›"-Remove this unused "employee" local variable.(Ğ÷è¤úÿÿÿÿ8‹ôÁ…‘/
 I
-java:S1481",Remove this unused "bankDao" local variable.(Ç¤šì8€¿ğÕ/
-I
-java:S1481L"-Remove this unused "customer" local variable.(¯°¼p8½ŠØ/
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8òÄÖ/
+java:S1172"+Remove this unused method parameter "scan".(ùáÉ‰8®»Áÿ/
+Ÿ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùáÉ‰8®»Áÿ/
+a
+java:S2583q"DChange this condition so that it does not always evaluate to "false"(«˜Ã·8öüÃ‡‘/
+¤
+java:S1186Ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íŠÆüÿÿÿÿ8‰‡·…‘/
+X
+java:S18548";Remove this useless assignment to local variable "bankDao".(Ç¤šì8Ùòšı/
 Y
-java:S2589:"7Remove this expression which always evaluates to "true"(²ıæßşÿÿÿÿ8€‰°×/
-P
-java:S1481".Remove this unused "startMenu" local variable.(Ş–ìÛúÿÿÿÿ8ÍŸ¬Ù/
+java:S1854š";Remove this useless assignment to local variable "bankDao".(Ç¤šì8®»Áÿ/
+w
+java:S1488G"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8ê´ô†‘/
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8Ùòšı/
+^
+java:S18549"<Remove this useless assignment to local variable "customer".(âî¤ ùÿÿÿÿ8ê´ô†‘/
+Z
+java:S1854¦"<Remove this useless assignment to local variable "employee".(øÇ›ß8ˆ¾·†‘/
+J
+java:S1481š",Remove this unused "bankDao" local variable.(Ç¤šì8®»Áÿ/
+V
+java:S1144•"3Remove this unused private "employeeSignIn" method.(ÅÄñÙıÿÿÿÿ8®»Áÿ/
+i
+java:S1192N"LDefine a constant instead of duplicating this literal "Signing in." 3 times.(¾ÚóÉ8í°Ò‡‘/
+y
+java:S1192>"WDefine a constant instead of duplicating this literal "Returning to Main Menu" 4 times.(˜í¨Åıÿÿÿÿ8Ùòšı/
+I
+java:S14818",Remove this unused "bankDao" local variable.(Ç¤šì8Ùòšı/
+n
+java:S1192"LDefine a constant instead of duplicating this literal "1. Accounts" 3 times.(ùœ†Áúÿÿÿÿ8Ùòšı/
+ˆ
+java:S1192."fDefine a constant instead of duplicating this literal "Please enter a number between 1 and 3" 3 times.(úİ»Ûüÿÿÿÿ8Ùòšı/
+L
+java:S1172U"/Remove this unused method parameter "customer".(®Óî8é²Æÿ/
+x
+java:S1488©"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8œüñ†‘/
