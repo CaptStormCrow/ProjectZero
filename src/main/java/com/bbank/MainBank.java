@@ -1,16 +1,18 @@
 package com.bbank;
 
+import com.bbank.dao.EmployeeDAO;
 import com.bbank.dao.impl.BBankImpl;
 import com.bbank.exception.BusinessException;
 import com.bbank.model.Customer;
 import com.bbank.model.Employee;
+
 
 import java.sql.SQLException;
 import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 
-public class MainBank {
+public class MainBank implements EmployeeDAO {
 
     static Logger log = Logger.getLogger(MainBank.class.getName());
 
@@ -50,7 +52,7 @@ public class MainBank {
             boolean isSignedIn = false;
             String password = null;
             String username = null;
-            while (isSignedIn == false) {
+            while (!isSignedIn) {
                 BBankImpl bankDao = new BBankImpl();
                 Customer customer = new Customer();
                 log.info("\n\nWelcome back. Please enter username: ");
@@ -63,8 +65,12 @@ public class MainBank {
                     password = scan.nextLine();
 
                     try{
-                       customer = this.loginVerification(username, password);
-                    } catch(BusinessException | SQLException e){
+                        customer = this.loginVerification(username, password);
+                        Exception ex1 = new BusinessException() ;
+
+                        SQLException ex2 = new SQLException(ex1);
+                        throw ex2;
+                    } catch(SQLException e){
                         log.info(e.getMessage());
                     }
 
@@ -98,28 +104,36 @@ public class MainBank {
             }
         }
 
-        private void signUpNewCustomer(Scanner scan){
-            int menuState = 0;
-            while (menuState != 3){
+        private void signUpNewCustomer(Scanner scan, Customer customer){
+           boolean isSignedUp = false;
+           String username=null;
+           String password=null;
+           String firstName=null;
+           String lastName=null;
+            while (isSignedUp){
                 log.info("\n\nNew Customer Sign up. Please create a username: ");
-                String username = scan.nextLine();
+                username = scan.nextLine();
                 if (username.matches("Exit")){
                     log.info("Returning to Main Menu!");
                 }else{
                     log.info("Create a password: ");
-                    String password = scan.nextLine();
+                    password = scan.nextLine();
                     log.info("Please enter your First Name: ");
-                    String firstName = scan.nextLine();
+                    firstName = scan.nextLine();
                     log.info("Please enter your Last Name: ");
-                    String lastName = scan.nextLine();
+                    lastName = scan.nextLine();
 
                     log.info("First Name: "+firstName+", \nLast Name: "+lastName+", \nUsername: " +username+" ,\nPassword: "+password+". \nIs this correct? Y/N");
                     String answer = scan.nextLine();
                     if(answer.matches("[yY]")){
                         log.info("User Created!");
                         log.info("\nRedirecting to Customer Menu. New Customers must still apply for a new account.");
-                        Customer customer = new Customer();
+                        customer = new Customer();
                     }
+
+                    log.info("Signing in.");
+                    isSignedUp = true;
+                    this.customerMenu(scan, customer);
                 }
             }
         }
@@ -136,7 +150,7 @@ public class MainBank {
             boolean isSignedIn = false;
             String password = null;
             String username = null;
-            while (isSignedIn == false) {
+            while (!isSignedIn) {
                 BBankImpl bankDao = new BBankImpl();
                 Employee employee = new Employee();
                 log.info("\n\nWelcome back. Please enter username: ");
@@ -149,8 +163,12 @@ public class MainBank {
                     password = scan.nextLine();
 
                     try{
-                        employee = this.loginVerification(Employee);
-                    } catch(BusinessException | SQLException e){
+                        employee = this.employeeLoginVerification(username, password);
+                        Exception ex1 = new BusinessException() ;
+
+                        SQLException ex2 = new SQLException(ex1);
+                        throw ex2;
+                    } catch(SQLException e){
                         log.info(e.getMessage());
                     }
 
@@ -161,9 +179,7 @@ public class MainBank {
             }
         }
 
-    public void loginVerification(String username, String password){
-        
-        }
+
 
         public void employeeMenu(Scanner scan){
             int empMenu = 0;
@@ -193,4 +209,13 @@ public class MainBank {
         }
 
 
+    @Override
+    public Customer loginVerification(String username, String password) {
+        return null;
+    }
+
+    @Override
+    public Employee employeeLoginVerification(String username, String password) {
+        return null;
+    }
 }

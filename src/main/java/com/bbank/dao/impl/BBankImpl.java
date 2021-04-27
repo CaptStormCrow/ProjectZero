@@ -1,7 +1,6 @@
 package com.bbank.dao.impl;
 
 import com.bbank.MainBank;
-import com.bbank.dao.BBankDAO;
 import com.bbank.dbutil.PostgresSqlConnection;
 import com.bbank.exception.BusinessException;
 import com.bbank.model.Customer;
@@ -10,7 +9,7 @@ import java.sql.*;
 import org.apache.log4j.Logger;
 
 
-public class BBankImpl implements BBankDAO {
+public class BBankImpl {
 
     static Logger log = Logger.getLogger(MainBank.class.getName());
 
@@ -38,6 +37,7 @@ public class BBankImpl implements BBankDAO {
         }
         return customer;
     }
+
 }
 
 
