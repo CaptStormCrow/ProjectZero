@@ -1,0 +1,28 @@
+
+w
+java:S1488""ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8ðáŽ¨‘/
+]	java:S125<"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8ª¦¨‘/
+J
+java:S1481"-Remove this unused "password" local variable.(ò“Ó8êÓ€¯‘/
+^
+java:S1854O"<Remove this useless assignment to local variable "employee".(Ð÷è¤úÿÿÿÿ8îâ®‘/
+Y
+java:S1854"<Remove this useless assignment to local variable "password".(¡Á‹8êÓ€¯‘/
+X
+java:S1854N";Remove this useless assignment to local variable "bankDao".(Ç¤šì8îâ®‘/
+Y
+java:S1854W"<Remove this useless assignment to local variable "password".(¡Á‹8à£Ä¯‘/
+I
+java:S1481N",Remove this unused "bankDao" local variable.(Ç¤šì8îâ®‘/
+J
+java:S1481K"-Remove this unused "password" local variable.(ò“Ó8à£Ä¯‘/
+O
+java:S1481O"-Remove this unused "employee" local variable.(Ð÷è¤úÿÿÿÿ8¬•ã®‘/
+U
+java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊþÿÿÿÿ8ûã±‘/
+w
+java:S1488Z"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8µÄ¯‘/
+V
+java:S1854"9Remove this useless assignment to local variable "bBank".(ÍÀïÕ8—å±‘/
+G
+java:S1481"*Remove this unused "bBank" local variable.(ÍÀïÕ8—å±‘/

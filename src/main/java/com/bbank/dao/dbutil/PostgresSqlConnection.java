@@ -1,4 +1,4 @@
-package com.bbank.dbutil;
+package com.bbank.dao.dbutil;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,6 +7,9 @@ import java.sql.SQLException;
 public class PostgresSqlConnection {
 
 
+    private void PostresSqlConnection() {
+    }
+
     private static Connection connection;
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
@@ -14,14 +17,9 @@ public class PostgresSqlConnection {
         String url = "jdbc:postgresql://localhost:5432/postgres";
         String username = "postgres";
         String password = "password";
-        Connection connection;
         return connection = DriverManager.getConnection(url, username, password);
     }
-
-
-
-
-
+}
 
 
 //    {
@@ -77,5 +75,5 @@ public class PostgresSqlConnection {
 //    }
 //
 
-    }
+
 

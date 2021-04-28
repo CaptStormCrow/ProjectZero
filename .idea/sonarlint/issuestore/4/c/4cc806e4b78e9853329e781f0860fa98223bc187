@@ -1,43 +1,6 @@
 
-_
-java:S1854›"<Remove this useless assignment to local variable "employee".(Ğ÷è¤úÿÿÿÿ8‹ôÁ…‘/
-P
-java:S1481›"-Remove this unused "employee" local variable.(Ğ÷è¤úÿÿÿÿ8‹ôÁ…‘/
-I
-java:S1172"+Remove this unused method parameter "scan".(ùáÉ‰8®»Áÿ/
-Ÿ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùáÉ‰8®»Áÿ/
-a
-java:S2583q"DChange this condition so that it does not always evaluate to "false"(«˜Ã·8öüÃ‡‘/
-¤
-java:S1186Ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íŠÆüÿÿÿÿ8‰‡·…‘/
+X	java:S1257"<This block of commented-out lines of code should be removed.(é°Ë©8Ã€Ş°‘/
 X
-java:S18548";Remove this useless assignment to local variable "bankDao".(Ç¤šì8Ùòšı/
-Y
-java:S1854š";Remove this useless assignment to local variable "bankDao".(Ç¤šì8®»Áÿ/
-w
-java:S1488G"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8ê´ô†‘/
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8Ùòšı/
-^
-java:S18549"<Remove this useless assignment to local variable "customer".(âî¤ ùÿÿÿÿ8ê´ô†‘/
-Z
-java:S1854¦"<Remove this useless assignment to local variable "employee".(øÇ›ß8ˆ¾·†‘/
-J
-java:S1481š",Remove this unused "bankDao" local variable.(Ç¤šì8®»Áÿ/
-V
-java:S1144•"3Remove this unused private "employeeSignIn" method.(ÅÄñÙıÿÿÿÿ8®»Áÿ/
-i
-java:S1192N"LDefine a constant instead of duplicating this literal "Signing in." 3 times.(¾ÚóÉ8í°Ò‡‘/
-y
-java:S1192>"WDefine a constant instead of duplicating this literal "Returning to Main Menu" 4 times.(˜í¨Åıÿÿÿÿ8Ùòšı/
-I
-java:S14818",Remove this unused "bankDao" local variable.(Ç¤šì8Ùòšı/
-n
-java:S1192"LDefine a constant instead of duplicating this literal "1. Accounts" 3 times.(ùœ†Áúÿÿÿÿ8Ùòšı/
-ˆ
-java:S1192."fDefine a constant instead of duplicating this literal "Please enter a number between 1 and 3" 3 times.(úİ»Ûüÿÿÿÿ8Ùòšı/
-L
-java:S1172U"/Remove this unused method parameter "customer".(®Óî8é²Æÿ/
-x
-java:S1488©"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8œüñ†‘/
+java:S1128"<Remove this unused import 'com.bbank.services.BankServices'.(¹ôÜ8µÍº±‘/
+U
+java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊşÿÿÿÿ8»½Š²‘/

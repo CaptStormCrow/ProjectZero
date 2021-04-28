@@ -1,7 +1,6 @@
 package com.bbank.model;
 
 public class Customer {
-    private int id;
     private String firstname;
     private String lastname;
     private String username;
@@ -12,21 +11,12 @@ public class Customer {
 
     }
 
-    public Customer(int id, String firstname, String lastname, String username, String password, int accountID) {
-        this.id = id;
+    public Customer(String firstname, String lastname, String username, String password, int accountID) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.username = username;
         this.password = password;
         this.accountID= accountID;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getFirstname() {
@@ -72,7 +62,6 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "id=" + id +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", username='" + username + '\'' +

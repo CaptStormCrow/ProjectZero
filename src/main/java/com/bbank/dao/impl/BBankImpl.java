@@ -1,41 +1,126 @@
 package com.bbank.dao.impl;
 
 import com.bbank.MainBank;
-import com.bbank.dbutil.PostgresSqlConnection;
+import com.bbank.dao.BBankDAO;
+import com.bbank.dao.dbutil.PostgresSqlConnection;
 import com.bbank.exception.BusinessException;
 import com.bbank.model.Customer;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 
 
-public class BBankImpl {
+public class BBankImpl{
 
-    static Logger log = Logger.getLogger(MainBank.class.getName());
+    static Logger log = Logger.getLogger(BBankImpl.class.getName());
 
-    public Customer getCustomerByFirstName(int id, String firstName, String lastName, String username, String password, int accountID) throws BusinessException {
+    public Customer getCustomerByFirstName(int id, String firstName) throws BusinessException {
         Customer customer=null;
         try(Connection connection = PostgresSqlConnection.getConnection()){
-            String sql="select c.first_name, c.last_name, c.accountID from public.customer c where c.first_name=?";
-            PreparedStatement preparedStatement=connection.prepareStatement(sql);
-            preparedStatement.setString(1, firstName);
+            String sql="select c.id, c.firstname, c.lastname, c.accountID from bbank.customer c where c.firstname=?";
+            ResultSet resultSet;
+            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+                preparedStatement.setString(1, firstName);
 
-            ResultSet resultSet=preparedStatement.executeQuery();
+                resultSet = preparedStatement.executeQuery();
+            }
             if(resultSet.next()){
                 customer = new Customer();
-                customer.setId(id);
                 customer.setFirstname("firstName");
                 customer.setLastname("lastName");
                 customer.setUsername("username");
                 customer.setPassword("password");
             }else{
-                throw new BusinessException("No customer found with id: "+id);
+                throw new BusinessException("No customer found with first name: "+firstName);
             }
         }catch (SQLException | ClassNotFoundException e){
             log.info(e);
             throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
         }
         return customer;
+    }
+
+    public List<Customer> getCustomerByLastName(int id, String firstName, String lastName, String username, String password, int accountID) throws BusinessException {
+        List<Customer> customerList=new ArrayList<>();
+        try(Connection connection = PostgresSqlConnection.getConnection()){
+            String sql="select c.firstname, c.lastname, c.accountID from bbank.customer c where c.lastname=?";
+            ResultSet resultSet;
+            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+                preparedStatement.setString(1, lastName);
+                resultSet = preparedStatement.executeQuery();
+            }
+            if(resultSet.next()){
+                Customer customer = new Customer();
+                customer.setFirstname("firstName");
+                customer.setLastname("lastName");
+                customer.setUsername("username");
+                customer.setPassword("password");
+            }else{
+                throw new BusinessException("No customer found with last name: "+lastName);
+            }
+        }catch (SQLException | ClassNotFoundException e){
+            log.info(e);
+            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
+        }
+        return customerList;
+    }
+
+    public List<Customer> getCustomerByUserName(String username) throws BusinessException {
+        Customer customer=null;
+        List<Customer> customerList=new ArrayList<>();
+        try(Connection connection = PostgresSqlConnection.getConnection()){
+            String sql="select c.firstname, c.lastname, c.accountID from bbank.customer c where c.username=?";
+            PreparedStatement preparedStatement=connection.prepareStatement(sql);
+            preparedStatement.setString(1, username);
+
+            ResultSet resultSet=preparedStatement.executeQuery();
+            if(resultSet.next()){
+                customer = new Customer();
+                customer.setFirstname("firstName");
+                customer.setLastname("lastName");
+                customer.setUsername("username");
+                customer.setPassword("password");
+            }else{
+                throw new BusinessException("No customer found with username: "+username);
+            }
+        }catch (SQLException | ClassNotFoundException e){
+            log.info(e);
+            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
+        }
+        return customerList;
+    }
+
+    public List<Customer> addCustomer(String firstname, String lastname, String username, String password) throws BusinessException {
+        Customer customer=null;
+        List<Customer> customerList=new ArrayList<>();
+        try(Connection connection = PostgresSqlConnection.getConnection()){
+            String sql="INSERT INTO bbank.customer\n" +
+                "(firstname, lastname, username, password)\n" +
+                "VALUES(?, ?, ?, ?);\n";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, firstname);
+            preparedStatement.setString(2, lastname);
+            preparedStatement.setString(3, username);
+            preparedStatement.setString(4, password);
+
+            ResultSet resultSet=preparedStatement.executeQuery();
+            if(resultSet.next()){
+                customer = new Customer();
+                customer.setFirstname("firstName");
+                customer.setLastname("lastName");
+                customer.setUsername("username");
+                customer.setPassword("password");
+            }else{
+                throw new BusinessException("No customer found with username: "+username);
+            }
+        }catch (SQLException | ClassNotFoundException e){
+            log.info(e);
+            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
+        }
+        return customerList;
     }
 
 }
