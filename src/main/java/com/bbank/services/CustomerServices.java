@@ -8,17 +8,17 @@ import org.apache.log4j.Logger;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class CustomerServices{
+public class CustomerServices {
 
-    Scanner scan= new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
     static Logger log = Logger.getLogger(CustomerServices.class.getName());
 
-    public void customerMenu (Scanner scan) throws BusinessException {
+    public void customerMenu(Scanner scan) throws BusinessException {
         int startMenu = 0;
         do {
             try {
                 log.info("\n\nCustomer Main Menu. Please select an option: ");
-                log.info("1. Accounts");
+                log.info("1. Accounts Menu");
                 log.info("2. Apply for new account");
                 log.info("3. Back");
                 startMenu = Integer.parseInt(scan.nextLine());
@@ -31,15 +31,12 @@ public class CustomerServices{
                 case 1:
                     this.customerAccountMenu(scan);
                     break;
-                case 2:
-                    break;
-                case 3:
-                    log.info("Returning to Main Menu");
+                case 2:this.newAccount(scan);
                     break;
                 default:
                     log.info("Thank you. Have a wonderful day.");
             }
-        }while (startMenu != 3);
+        } while (startMenu != 3);
     }
 
 
@@ -47,7 +44,7 @@ public class CustomerServices{
         boolean isSignedIn = false;
         String password = null;
         String username = null;
-        BBankImpl bBank= new BBankImpl();
+        BBankImpl bBank = new BBankImpl();
         while (!isSignedIn) {
             Customer cust = new Customer();
             log.info("\n\nWelcome back. Please enter username: ");
@@ -75,74 +72,107 @@ public class CustomerServices{
         }
     }
 
-    public void signUpNewCustomer (Scanner scan) throws BusinessException {
+    public void signUpNewCustomer(Scanner scan) throws BusinessException {
         boolean isSignedUp = false;
         String username = null;
         String password = null;
         String firstname = null;
         String lastname = null;
-        BBankImpl bBank=new BBankImpl();
+        BBankImpl bBank = new BBankImpl();
         while (!isSignedUp) {
-            log.info("\n\nNew Customer Sign up. Please create a username: ");
-            username = scan.nextLine();
-            if (username.matches("Exit")) {
+            log.info("\n\nNew Customer Sign up.\n Please enter your First name: ");
+            firstname = scan.nextLine();
+            if (firstname.matches("Exit")) {
                 log.info("Returning to Main Menu!");
             } else {
-                log.info("Create a password: ");
-                password = scan.nextLine();
-                log.info("Please enter your First Name: ");
-                firstname = scan.nextLine();
-                log.info("Please enter your Last Name: ");
+                log.info("Please enter your Last name: ");
                 lastname = scan.nextLine();
+                log.info("Please create a username: ");
+                username = scan.nextLine();
+                log.info("Please create your password: ");
+                password = scan.nextLine();
                 log.info("First Name: " + firstname + ", \nLast Name: " + lastname + ", \nUsername: " + username + " ,\nPassword: " + password + ". \nIs this correct? Y/N");
                 String answer = scan.nextLine();
                 if (answer.matches("[yY]")) {
-                    try{
+                    try {
                         log.info("User Created!");
                         log.info("\nRedirecting to Customer Menu. New Customers must still apply for a new account.");
                         Customer customer = new Customer();
-                        bBank.addCustomer(firstname,lastname,username,password);
+                        bBank.addCustomer(firstname, lastname, username, password);
                         customer.setUsername(username);
                         customer.setPassword(password);
                         customer.setFirstname(firstname);
                         customer.setLastname(lastname);
-
-                    } catch(BusinessException e){
+                    } catch (BusinessException e) {
                         log.info(e);
                     }
                     isSignedUp = true;
                 }
-
                 log.info("Signing in.");
-
             }
         }
     }
 
-    public void customerAccountMenu (Scanner scan) throws BusinessException {
+    public void customerAccountMenu(Scanner scan) throws BusinessException {
         int custMenu = 0;
         do {
-            try{
+            try {
                 log.info("\n\nCustomer Account Menu. Please select an option: ");
                 log.info("1. Accounts");
                 log.info("2. Open new accounts");
                 log.info("3. Deposit or withdraw");
                 log.info("4. Back");
                 custMenu = Integer.parseInt(scan.nextLine());
-            }catch (Exception e){
+            } catch (Exception e) {
                 log.info("Invalid Entry!");
                 custMenu = 0;
             }
             switch (custMenu) {
-                case 1: log.info("Connecting to database......");
+                case 1:
+                    log.info("Connecting to database......");
                     break;
-                case 2: this.signUpNewCustomer(scan);
+                case 2:
+                    this.newAccount(scan);
                     break;
-                case 3: log.info("Manipulating funds........");
+                case 3:
+                    log.info("Manipulating funds........");
                     break;
-                default: log.info("Returning to Main Menu");
+                default:
+                    log.info("Returning to Main Menu");
             }
-        }while (custMenu != 4);
+        } while (custMenu != 4);
+    }
+
+    public void newAccount(Scanner scan) throws BusinessException {
+        boolean newAcct = false;
+        String typeOfAccount = null;
+        int amount = 0;
+        BBankImpl bBank = new BBankImpl();
+        while (!newAcct) {
+            log.info("\nNew Account Creation.");
+            log.info("What type of account would you like to create?\n\n Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'");
+            typeOfAccount = scan.nextLine();
+            if (typeOfAccount.matches("Exit")) {
+                log.info("Returning to Main Menu!");
+            } else {
+                log.info("How much would you like to deposit?");
+                amount = Integer.parseInt(scan.nextLine());
+                log.info("You want to deposit $" + amount + " into your " + typeOfAccount + ". Is that correct? Y/N");
+                String correct = scan.nextLine();
+                if (correct.matches("[yY]")) {
+                    try {
+                        log.info("Account Created!");
+                        bBank.addAccount(typeOfAccount, amount);
+                        throw new BusinessException();
+                    } catch (BusinessException e) {
+                        log.info(e);
+                    }
+                    newAcct = true;
+                }
+                log.info("Congratulations!");
+            }
+        }
     }
 }
+
 

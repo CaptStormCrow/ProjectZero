@@ -2546,3 +2546,1690 @@ Thank you. Have a wonderful day.
 
 
 Customer Main Menu. Please select an option: 
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+New Customer Sign up. Please create a username: 
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+New Customer Sign up.
+ Please enter your First name: 
+Please enter your Last name: 
+Please create a username: 
+Please create your password: 
+First Name: Kyle, 
+Last Name: Bond, 
+Username: jojo ,
+Password: bean. 
+Is this correct? Y/N
+User Created!
+
+Redirecting to Customer Menu. New Customers must still apply for a new account.
+org.postgresql.util.PSQLException: No results were returned by the query.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Signing in.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, jojo . Enter your password
+com.bbank.exception.BusinessException
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Back
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, lkjhhlk . Enter your password
+No customer found with username: lkjhhlk
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, ko . Enter your password
+No customer found with username: ko
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+
+
+New Customer Sign up.
+ Please enter your First name: 
+Please enter your Last name: 
+Please create a username: 
+Please create your password: 
+First Name: Kyle, 
+Last Name: Bond, 
+Username: ojoj ,
+Password: okjokj. 
+Is this correct? Y/N
+User Created!
+
+Redirecting to Customer Menu. New Customers must still apply for a new account.
+org.postgresql.util.PSQLException: No results were returned by the query.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Signing in.
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, okok . Enter your password
+No customer found with username: okok
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+New Account Creation.
+What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'
+How much would you like to deposit?
+You want to deposit $500 into your Checking. Is that correct? Y/N
+Account Created!
+org.postgresql.util.PSQLException: No value specified for parameter 3.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Congratulations!
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Connecting to database......
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, jojo . Enter your password
+No customer found with username: jojo
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+New Account Creation.
+What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'
+How much would you like to deposit?
+You want to deposit $500 into your Checking. Is that correct? Y/N
+Account Created!
+org.postgresql.util.PSQLException: No value specified for parameter 3.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Congratulations!
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+New Account Creation.
+What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'
+How much would you like to deposit?
+You want to deposit $500 into your Checking. Is that correct? Y/N
+Account Created!
+org.postgresql.util.PSQLException: No value specified for parameter 3.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Congratulations!
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, jojo . Enter your password
+No customer found with username: jojo
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+New Account Creation.
+What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'
+How much would you like to deposit?
+You want to deposit $500 into your Checking. Is that correct? Y/N
+Account Created!
+org.postgresql.util.PSQLException: ERROR: column "amount" is of type numeric but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 63
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Congratulations!
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+New Customer Sign up.
+ Please enter your First name: 
+Please enter your Last name: 
+Please create a username: 
+Please create your password: 
+First Name: Kyle, 
+Last Name: Bond, 
+Username: jojo ,
+Password: jojo. 
+Is this correct? Y/N
+User Created!
+
+Redirecting to Customer Menu. New Customers must still apply for a new account.
+org.postgresql.util.PSQLException: No results were returned by the query.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Signing in.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+Thank you, jojo . Enter your password
+com.bbank.exception.BusinessException
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+New Account Creation.
+What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'
+How much would you like to deposit?
+You want to deposit $500 into your Checking. Is that correct? Y/N
+Account Created!
+org.postgresql.util.PSQLException: No results were returned by the query.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Congratulations!
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.

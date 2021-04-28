@@ -1,25 +1,17 @@
 package com.bbank;
 
-import com.bbank.dao.BBankDAO;
 import com.bbank.dao.impl.BBankImpl;
 import com.bbank.exception.BusinessException;
-import com.bbank.services.BankServices;
 import java.util.Scanner;
-
 import com.bbank.services.CustomerServices;
 import com.bbank.services.EmployeeServices;
 import org.apache.log4j.Logger;
 
-
-
 public class MainBank extends BBankImpl {
+
     static Logger log = Logger.getLogger(MainBank.class);
-
     public static void main(String[] args) throws BusinessException {
-
-
         Scanner scan = new Scanner(System.in);
-
         log.info("Welcome to BBank. How can we assist you?");
         int mMenu = 0;
         CustomerServices customerServices = new CustomerServices();
@@ -51,31 +43,4 @@ public class MainBank extends BBankImpl {
             }
         } while (mMenu != 4);
     }
-
-//    public void customerMenu (Scanner scan){
-//        int startMenu = 0;
-//        CustomerServices customerServices = new CustomerServices();
-//        do {
-//            try {
-//                log.info("\n\nCustomer Menu. Please select an option: ");
-//                log.info("1. Accounts");
-//                log.info("2. Apply for new account");
-//                log.info("3. Exit");
-//                startMenu = Integer.parseInt(scan.nextLine());
-//            } catch (Exception e) {
-//                log.info("Invalid Entry!");
-//                startMenu = 0;
-//            }
-//
-//            switch (startMenu) {
-//                case 1:
-//                    customerServices.customerAccountMenu(scan);
-//                    break;
-//                case 2:customerServices.signUpNewCustomer(scan);
-//                    break;
-//                default:
-//                    log.info("Please enter a number between 1 and 3");
-//            }
-//        }while (startMenu != 3);
-//    }
 }

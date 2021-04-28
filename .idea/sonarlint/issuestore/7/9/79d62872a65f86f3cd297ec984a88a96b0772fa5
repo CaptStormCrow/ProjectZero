@@ -1,14 +1,11 @@
 
-L
-java:S1128"/Remove this unused import 'com.bbank.MainBank'.(ŒŞ´—8³ø¡¯‘/
+q
+java:S2095~"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¹ëıµ‘/
+q
+java:S2095G"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Øö¶¦‘/
+q
+java:S2095a"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8êÈñ±‘/
 C
-java:S1172."&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
-^	java:S125–"<This block of commented-out lines of code should be removed.(âíˆËüÿÿÿÿ8Øö¶¦‘/
-q
-java:S2095L"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Øö¶¦‘/
-U
-java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊşÿÿÿÿ8­‡œ¯‘/
-q
-java:S2095g"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8êÈñ±‘/
+java:S1172)"&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
 K
-java:S1172")Remove this unused method parameter "id".(¬Áã¦ıÿÿÿÿ8ÊÖ‹³‘/
+java:S1172")Remove this unused method parameter "id".(¬Áã¦ıÿÿÿÿ8ÊÖ‹³‘/

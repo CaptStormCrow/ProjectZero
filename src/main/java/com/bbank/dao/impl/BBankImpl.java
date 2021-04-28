@@ -1,17 +1,13 @@
 package com.bbank.dao.impl;
 
-import com.bbank.MainBank;
-import com.bbank.dao.BBankDAO;
 import com.bbank.dao.dbutil.PostgresSqlConnection;
 import com.bbank.exception.BusinessException;
+import com.bbank.model.Accounts;
 import com.bbank.model.Customer;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.log4j.Logger;
-
 
 public class BBankImpl{
 
@@ -24,7 +20,6 @@ public class BBankImpl{
             ResultSet resultSet;
             try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
                 preparedStatement.setString(1, firstName);
-
                 resultSet = preparedStatement.executeQuery();
             }
             if(resultSet.next()){
@@ -75,7 +70,6 @@ public class BBankImpl{
             String sql="select c.firstname, c.lastname, c.accountID from bbank.customer c where c.username=?";
             PreparedStatement preparedStatement=connection.prepareStatement(sql);
             preparedStatement.setString(1, username);
-
             ResultSet resultSet=preparedStatement.executeQuery();
             if(resultSet.next()){
                 customer = new Customer();
@@ -105,7 +99,6 @@ public class BBankImpl{
             preparedStatement.setString(2, lastname);
             preparedStatement.setString(3, username);
             preparedStatement.setString(4, password);
-
             ResultSet resultSet=preparedStatement.executeQuery();
             if(resultSet.next()){
                 customer = new Customer();
@@ -123,60 +116,28 @@ public class BBankImpl{
         return customerList;
     }
 
+    public List<Customer> addAccount(String typeofaccount, Integer amount) throws BusinessException {
+        Accounts accounts= null;
+        List<Customer> accountList=new ArrayList<>();
+        try(Connection connection = PostgresSqlConnection.getConnection()){
+            String sql="INSERT INTO bbank.accounts\n" +
+                    "(typeofaccount, amount)\n" +
+                    "VALUES(?, ?);\n";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, typeofaccount);
+            preparedStatement.setInt(2, amount);
+            ResultSet resultSet=preparedStatement.executeQuery();
+            if(resultSet.next()){
+                accounts = new Accounts();
+                accounts.setTypeOfAccount("typeofaccount");
+                accounts.setAmount(amount);
+            }else{
+                throw new BusinessException("No account found");
+            }
+        }catch (SQLException | ClassNotFoundException e){
+            log.info(e);
+            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
+        }
+        return accountList;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//    public Customer createNewCustomer (int id, String firstName, String lastName, String password, String username, int accountid) throws BusinessException, SQLException {
-//        log.info.println("Not implemented");
-//        Customer customer = new Customer (id, username, firstName, lastName, password, accountid);
-//        return customer;
-//
-//
-//        PreparedStatement preparedStatement;
-//        try (Connection connection = PostgresSqlConnection.getConnection) {
-//            String sql = "INSERT INTO public.customer\n" +
-//                    "(first_name, last_name, username, password, acctid)\n" +
-//                    "VALUES(?, ?, ?, ?, ?);\n";
-//            preparedStatement = connection.prepareStatement(sql);
-//            preparedStatement.setString(1,customer.getFirstname());
-//            preparedStatement.setString(1,customer.getLastname());
-//            preparedStatement.setString(1,customer.getUsername());
-//            preparedStatement.setString(1,customer.getPassword());
-//            preparedStatement.setInt(5,customer.getAccountID());
-//
-//        }
-//
-//
-//        int c=preparedStatement.executeUpdate();
-//        if(c==1){
-//            ResultSet resultSet=preparedStatement.getGeneratedKeys();
-//            if(resultSet.next()){
-//                customer.setId(resultSet.getInt(1));
-//            }else {
-//                throw new BusinessException("Failed to Register. Please Retry.");
-//            }
-//        }
-//
-//    }
-//}
