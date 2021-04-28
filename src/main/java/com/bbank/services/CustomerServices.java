@@ -18,6 +18,7 @@ public class CustomerServices {
         do {
             try {
                 log.info("\n\nCustomer Main Menu. Please select an option: ");
+                log.info("\n---------------------------------------------");
                 log.info("1. Accounts Menu");
                 log.info("2. Apply for new account");
                 log.info("3. Back");
@@ -49,6 +50,7 @@ public class CustomerServices {
             Customer cust = new Customer();
             log.info("\n\nWelcome back. Please enter username: ");
             log.info("Or type exit to return to main menu.");
+            log.info("\n-------------------------------------");
             username = scan.nextLine();
             if (username.matches("Exit")) {
                 log.info("Returning to Main Menu");
@@ -81,6 +83,7 @@ public class CustomerServices {
         BBankImpl bBank = new BBankImpl();
         while (!isSignedUp) {
             log.info("\n\nNew Customer Sign up.\n Please enter your First name: ");
+            log.info("\n--------------------------------------------------------");
             firstname = scan.nextLine();
             if (firstname.matches("Exit")) {
                 log.info("Returning to Main Menu!");
@@ -97,6 +100,7 @@ public class CustomerServices {
                     try {
                         log.info("User Created!");
                         log.info("\nRedirecting to Customer Menu. New Customers must still apply for a new account.");
+                        this.customerMenu(scan);
                         Customer customer = new Customer();
                         bBank.addCustomer(firstname, lastname, username, password);
                         customer.setUsername(username);
@@ -118,6 +122,7 @@ public class CustomerServices {
         do {
             try {
                 log.info("\n\nCustomer Account Menu. Please select an option: ");
+                log.info("\n----------------------------------------------------");
                 log.info("1. Accounts");
                 log.info("2. Open new accounts");
                 log.info("3. Deposit or withdraw");
@@ -150,6 +155,7 @@ public class CustomerServices {
         BBankImpl bBank = new BBankImpl();
         while (!newAcct) {
             log.info("\nNew Account Creation.");
+            log.info("\n---------------------");
             log.info("What type of account would you like to create?\n\n Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'");
             typeOfAccount = scan.nextLine();
             if (typeOfAccount.matches("Exit")) {

@@ -7,13 +7,15 @@ import com.bbank.model.Customer;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.bbank.model.Employee;
 import org.apache.log4j.Logger;
 
 public class BBankImpl{
 
     static Logger log = Logger.getLogger(BBankImpl.class.getName());
 
-    public Customer getCustomerByFirstName(int id, String firstName) throws BusinessException {
+    public Customer getCustomerByFirstName(String firstName) throws BusinessException {
         Customer customer=null;
         try(Connection connection = PostgresSqlConnection.getConnection()){
             String sql="select c.id, c.firstname, c.lastname, c.accountID from bbank.customer c where c.firstname=?";
@@ -140,4 +142,28 @@ public class BBankImpl{
         }
         return accountList;
     }
+
+    public List<Customer> getEmployeeByEmpName(String empname) throws BusinessException {
+        Employee employee=null;
+        List<Customer> customerList=new ArrayList<>();
+        try(Connection connection = PostgresSqlConnection.getConnection()){
+            String sql="select em.empname, em.username, em.password from bbank.employee em where em.empname=?";
+            PreparedStatement preparedStatement=connection.prepareStatement(sql);
+            preparedStatement.setString(1, empname);
+            ResultSet resultSet=preparedStatement.executeQuery();
+            if(resultSet.next()){
+                employee = new Employee();
+                employee.setEmpname("empname");
+
+            }else{
+                throw new BusinessException("No Employee found with Name: "+empname);
+            }
+        }catch (SQLException | ClassNotFoundException e){
+            log.info(e);
+            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
+        }
+        return customerList;
+    }
+
+
 }

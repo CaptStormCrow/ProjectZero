@@ -4,6 +4,7 @@ package com.bbank.services;
 import com.bbank.dao.BBankDAO;
 import com.bbank.dao.impl.BBankImpl;
 import com.bbank.exception.BusinessException;
+import com.bbank.model.Customer;
 import com.bbank.model.Employee;
 import org.apache.log4j.Logger;
 import java.sql.SQLException;
@@ -15,14 +16,17 @@ public class EmployeeServices {
     static Logger log = Logger.getLogger(EmployeeServices.class);
 
 
-    public void employeeSignIn (Scanner scan){
+    public void employeeSignIn() throws BusinessException {
         boolean isSignedIn = false;
-        String password = null;
+        String empname = null;
         String username = null;
-        BBankImpl bBank= new BBankImpl();
+        String password = null;
+        BBankImpl bBank = new BBankImpl();
         while (!isSignedIn) {
-            log.info("\n\nWelcome back. Please enter username: ");
-            log.info("Or type 'Exit' to return to main menu.");
+            Employee emp = new Employee();
+            log.info("\n\nWelcome back. Please enter your Employee ID: ");
+            log.info("Or type exit to return to main menu.");
+            log.info("\n-------------------------------------");
             username = scan.nextLine();
             if (username.matches("Exit")) {
                 log.info("Returning to Main Menu");
@@ -30,13 +34,15 @@ public class EmployeeServices {
                 log.info("\nThank you, " + username + " . Enter your password");
                 password = scan.nextLine();
                 try {
+                    bBank.getEmployeeByEmpName(empname);
+                    emp.getUsername();
+                    emp.getPassword();
                     Exception ex1 = new BusinessException();
                     SQLException ex2 = new SQLException(ex1);
                     throw ex2;
-                } catch (SQLException e) {
+                } catch (SQLException | BusinessException e) {
                     log.info(e.getMessage());
                 }
-
                 log.info("Signing in.");
                 isSignedIn = true;
                 this.employeeMenu(scan);

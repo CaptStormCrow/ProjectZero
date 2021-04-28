@@ -1,7 +1,7 @@
 
-J
-java:S1481-"-Remove this unused "password" local variable.(ò“Ó8Ş¶·¯‘/
 w
-java:S1488?"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8²ıÄ±‘/
+java:S1488A"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8²ıÄ±‘/
+J
+java:S1481."-Remove this unused "password" local variable.(ò“Ó8Ş¶·¯‘/
 Y
-java:S18549"<Remove this useless assignment to local variable "password".(¡Á‹8Ş¶·¯‘/
+java:S1854;"<Remove this useless assignment to local variable "password".(¡Á‹8Ş¶·¯‘/

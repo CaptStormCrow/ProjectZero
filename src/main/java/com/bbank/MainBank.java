@@ -19,6 +19,7 @@ public class MainBank extends BBankImpl {
         do {
             try {
                 log.info("\n\nMain Menu. Please select an option: ");
+                log.info("\n--------------------------------------");
                 log.info("1. Accounts");
                 log.info("2. Apply for new account");
                 log.info("3. Employee Menu");
@@ -36,7 +37,7 @@ public class MainBank extends BBankImpl {
                     customerServices.signUpNewCustomer(scan);
                     break;
                 case 3:
-                    employeeServices.employeeSignIn(scan);
+                    employeeServices.employeeSignIn();
                     break;
                 default:
                     log.info("Thank you. Have a wonderful day.");

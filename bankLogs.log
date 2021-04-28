@@ -4233,3 +4233,381 @@ Customer Main Menu. Please select an option:
 3. Back
 Invalid Entry!
 Thank you. Have a wonderful day.
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type 'Exit' to return to main menu.
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+1. Accounts
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter your Employee ID: 
+Or type exit to return to main menu.
+
+-------------------------------------
+
+Thank you, jojo . Enter your password
+org.postgresql.util.PSQLException: ERROR: relation "bbank.employee" does not exist
+  Position: 50
+Internal error occurred. Contact SystemAdmin.
+Signing in.
+
+
+Employee Menu. Please select an option: 
+1. Accounts
+2. Approve or deny new accounts
+3. Deposit or withdraw
+4. Exit
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter your Employee ID: 
+Or type exit to return to main menu.
+
+-------------------------------------
+
+Thank you, jojo . Enter your password
+No Employee found with Name: null
+Signing in.
+
+
+Employee Menu. Please select an option: 
+1. Accounts
+2. Approve or deny new accounts
+3. Deposit or withdraw
+4. Exit
+
+
+Employee Menu. Please select an option: 
+1. Accounts
+2. Approve or deny new accounts
+3. Deposit or withdraw
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+Invalid Entry!
