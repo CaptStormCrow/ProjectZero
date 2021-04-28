@@ -1,11 +1,13 @@
 
-r
-java:S2095€"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¹ëıµ‘/
-q
-java:S2095c"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8êÈñ±‘/
-q
-java:S2095I"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Øö¶¦‘/
 C
-java:S1172+"&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
+java:S1172,"&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
 r
-java:S2095—"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’Ä±¸‘/
+java:S2095˜"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’Ä±¸‘/
+q
+java:S2095K"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Øö¶¦‘/
+R
+java:S1481G"5Remove this unused "customerServices" local variable.(ßãµ8„ò¥È‘/
+r
+java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¹ëıµ‘/
+q
+java:S2095e"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8êÈñ±‘/

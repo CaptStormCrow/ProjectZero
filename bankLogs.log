@@ -4611,3 +4611,649 @@ Main Menu. Please select an option:
 3. Employee Menu
 4. Exit
 Invalid Entry!
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+-------------------------------------
+
+Thank you, jojo . Enter your password
+com.bbank.exception.BusinessException
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+
+New Account Creation.
+
+---------------------
+What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit'
+How much would you like to deposit?
+You want to deposit $500 into your checking. Is that correct? Y/N
+Account Created!
+org.postgresql.util.PSQLException: No results were returned by the query.
+com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin.
+Congratulations!
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+1. Accounts
+2. Open new accounts
+3. Deposit or withdraw
+4. Back
+Invalid Entry!
+Returning to Main Menu
+
+
+Customer Account Menu. Please select an option: 
+
+----------------------------------------------------
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+-------------------------------------
+
+Thank you, jojoj . Enter your password
+No customer found with username: jojoj
+Signing in.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+2. Apply for new account
+3. Back
+Invalid Entry!
+Thank you. Have a wonderful day.
+
+
+Customer Main Menu. Please select an option: 
+
+---------------------------------------------
+1. Accounts Menu
+Welcome to BBank. How can we assist you?
+
+
+Main Menu. Please select an option: 
+
+--------------------------------------
+1. Accounts
+2. Apply for new account
+3. Employee Menu
+4. Exit
+
+
+Welcome back. Please enter username: 
+Or type exit to return to main menu.
+
+-------------------------------------
+[INFO]    - {com.bbank.MainBank}    Welcome to BBank. How can we assist you?         Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.MainBank}    
+
+Main Menu. Please select an option:          Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.MainBank}    
+--------------------------------------         Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.MainBank}    1. Accounts         Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.MainBank}    2. Apply for new account         Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.MainBank}    3. Employee Menu         Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.MainBank}    4. Exit         Apr-28-21 Wednesday CDT 10:18:37      
+[INFO]    - {com.bbank.services.CustomerServices}    
+
+Welcome back. Please enter username:          Apr-28-21 Wednesday CDT 10:18:42      
+[INFO]    - {com.bbank.services.CustomerServices}    Or type exit to return to main menu.         Apr-28-21 Wednesday CDT 10:18:42      
+[INFO]    - {com.bbank.services.CustomerServices}    
+-------------------------------------         Apr-28-21 Wednesday CDT 10:18:42      
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:19:28 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Welcome back. Please enter username:  Apr-28-21 Wednesday CDT 10:19:34 
+[INFO] - {com.bbank.services.CustomerServices} Or type exit to return to main menu. Apr-28-21 Wednesday CDT 10:19:34 
+[INFO] - {com.bbank.services.CustomerServices} 
+------------------------------------- Apr-28-21 Wednesday CDT 10:19:34 
+[INFO] - {com.bbank.services.CustomerServices} 
+Thank you, jojo . Enter your password Apr-28-21 Wednesday CDT 10:19:52 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} Signing in. Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:19:57 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Account Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:20:03 
+[INFO] - {com.bbank.services.CustomerServices} 
+---------------------------------------------------- Apr-28-21 Wednesday CDT 10:20:03 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Apr-28-21 Wednesday CDT 10:20:03 
+[INFO] - {com.bbank.services.CustomerServices} 2. Open new accounts Apr-28-21 Wednesday CDT 10:20:03 
+[INFO] - {com.bbank.services.CustomerServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:20:03 
+[INFO] - {com.bbank.services.CustomerServices} 4. Back Apr-28-21 Wednesday CDT 10:20:03 
+[INFO] - {com.bbank.services.CustomerServices} Connecting to database...... Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Account Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 
+---------------------------------------------------- Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 2. Open new accounts Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 4. Back Apr-28-21 Wednesday CDT 10:20:07 
+[INFO] - {com.bbank.services.CustomerServices} 
+New Account Creation. Apr-28-21 Wednesday CDT 10:20:10 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------- Apr-28-21 Wednesday CDT 10:20:10 
+[INFO] - {com.bbank.services.CustomerServices} What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit' Apr-28-21 Wednesday CDT 10:20:10 
+[INFO] - {com.bbank.services.CustomerServices} How much would you like to deposit? Apr-28-21 Wednesday CDT 10:20:16 
+[INFO] - {com.bbank.services.CustomerServices} You want to deposit $200 into your savings. Is that correct? Y/N Apr-28-21 Wednesday CDT 10:20:19 
+[INFO] - {com.bbank.services.CustomerServices} Account Created! Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.dao.impl.BBankImpl} org.postgresql.util.PSQLException: No results were returned by the query. Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} Congratulations! Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Account Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} 
+---------------------------------------------------- Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} 2. Open new accounts Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.services.CustomerServices} 4. Back Apr-28-21 Wednesday CDT 10:20:23 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:20:55 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+New Customer Sign up.
+ Please enter your First name:  Apr-28-21 Wednesday CDT 10:44:16 
+[INFO] - {com.bbank.services.CustomerServices} 
+-------------------------------------------------------- Apr-28-21 Wednesday CDT 10:44:16 
+[INFO] - {com.bbank.services.CustomerServices} Please enter your Last name:  Apr-28-21 Wednesday CDT 10:44:22 
+[INFO] - {com.bbank.services.CustomerServices} Please create a username:  Apr-28-21 Wednesday CDT 10:44:25 
+[INFO] - {com.bbank.services.CustomerServices} Please create your password:  Apr-28-21 Wednesday CDT 10:44:29 
+[INFO] - {com.bbank.services.CustomerServices} First Name: John, 
+Last Name: John, 
+Username: jojo ,
+Password: jojo. 
+Is this correct? Y/N Apr-28-21 Wednesday CDT 10:44:32 
+[INFO] - {com.bbank.services.CustomerServices} User Created! Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 
+Redirecting to Customer Menu. New Customers must still apply for a new account. Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:44:36 
+[INFO] - {com.bbank.services.CustomerServices} 
+New Account Creation. Apr-28-21 Wednesday CDT 10:44:46 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------- Apr-28-21 Wednesday CDT 10:44:46 
+[INFO] - {com.bbank.services.CustomerServices} What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit' Apr-28-21 Wednesday CDT 10:44:46 
+[INFO] - {com.bbank.services.CustomerServices} How much would you like to deposit? Apr-28-21 Wednesday CDT 10:44:52 
+[INFO] - {com.bbank.services.CustomerServices} You want to deposit $300 into your Checking. Is that correct? Y/N Apr-28-21 Wednesday CDT 10:44:57 
+[INFO] - {com.bbank.services.CustomerServices} Account Created! Apr-28-21 Wednesday CDT 10:45:01 
+[INFO] - {com.bbank.dao.impl.BBankImpl} org.postgresql.util.PSQLException: No results were returned by the query. Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} Congratulations! Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:45:02 
+[INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.dao.impl.BBankImpl} org.postgresql.util.PSQLException: No results were returned by the query. Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException: Internal error occurred. Contact SystemAdmin. Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.services.CustomerServices} Signing in. Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:45:48 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Welcome back. Please enter username:  Apr-28-21 Wednesday CDT 10:45:56 
+[INFO] - {com.bbank.services.CustomerServices} Or type exit to return to main menu. Apr-28-21 Wednesday CDT 10:45:56 
+[INFO] - {com.bbank.services.CustomerServices} 
+------------------------------------- Apr-28-21 Wednesday CDT 10:45:56 
+[INFO] - {com.bbank.services.CustomerServices} 
+Thank you, jojo . Enter your password Apr-28-21 Wednesday CDT 10:46:01 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} Signing in. Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:46:03 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Account Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:08 
+[INFO] - {com.bbank.services.CustomerServices} 
+---------------------------------------------------- Apr-28-21 Wednesday CDT 10:46:08 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Apr-28-21 Wednesday CDT 10:46:08 
+[INFO] - {com.bbank.services.CustomerServices} 2. Open new accounts Apr-28-21 Wednesday CDT 10:46:08 
+[INFO] - {com.bbank.services.CustomerServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:46:08 
+[INFO] - {com.bbank.services.CustomerServices} 4. Back Apr-28-21 Wednesday CDT 10:46:08 
+[INFO] - {com.bbank.services.CustomerServices} Manipulating funds........ Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Account Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} 
+---------------------------------------------------- Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} 2. Open new accounts Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} 4. Back Apr-28-21 Wednesday CDT 10:46:24 
+[INFO] - {com.bbank.services.CustomerServices} Connecting to database...... Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Account Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} 
+---------------------------------------------------- Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} 2. Open new accounts Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} 4. Back Apr-28-21 Wednesday CDT 10:46:35 
+[INFO] - {com.bbank.services.CustomerServices} Returning to Main Menu Apr-28-21 Wednesday CDT 10:46:45 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:45 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:46:45 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:46:45 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:46:45 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:46:45 
+[INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-28-21 Wednesday CDT 10:46:47 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:47 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:46:47 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:46:47 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:46:47 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:46:47 
+[INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:46:49 
+[INFO] - {com.bbank.services.EmployeeServices} 
+
+Welcome back. Please enter your Employee ID:  Apr-28-21 Wednesday CDT 10:46:52 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-28-21 Wednesday CDT 10:46:52 
+[INFO] - {com.bbank.services.EmployeeServices} 
+------------------------------------- Apr-28-21 Wednesday CDT 10:46:52 
+[INFO] - {com.bbank.services.EmployeeServices} 
+Thank you, Kyle . Enter your password Apr-28-21 Wednesday CDT 10:46:57 
+[INFO] - {com.bbank.services.EmployeeServices} No Employee found with Name: null Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.services.EmployeeServices} Signing in. Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.services.EmployeeServices} 
+
+Employee Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.services.EmployeeServices} 1. Accounts Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.services.EmployeeServices} 2. Approve or deny new accounts Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.services.EmployeeServices} 3. Deposit or withdraw Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.services.EmployeeServices} 4. Exit Apr-28-21 Wednesday CDT 10:47:01 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:48:17 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Welcome back. Please enter username:  Apr-28-21 Wednesday CDT 10:48:23 
+[INFO] - {com.bbank.services.CustomerServices} Or type exit to return to main menu. Apr-28-21 Wednesday CDT 10:48:23 
+[INFO] - {com.bbank.services.CustomerServices} 
+------------------------------------- Apr-28-21 Wednesday CDT 10:48:23 
+[INFO] - {com.bbank.services.CustomerServices} 
+Thank you, jojo . Enter your password Apr-28-21 Wednesday CDT 10:48:26 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} Signing in. Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:48:28 
+[INFO] - {com.bbank.services.CustomerServices} 
+New Account Creation. Apr-28-21 Wednesday CDT 10:48:32 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------- Apr-28-21 Wednesday CDT 10:48:32 
+[INFO] - {com.bbank.services.CustomerServices} What type of account would you like to create?
+
+ Please type 'Checking' or 'Savings'. Or if you want to exit, type 'Exit' Apr-28-21 Wednesday CDT 10:48:32 
+[INFO] - {com.bbank.services.CustomerServices} How much would you like to deposit? Apr-28-21 Wednesday CDT 10:48:36 
+[INFO] - {com.bbank.services.CustomerServices} You want to deposit $100000000 into your Checking. Is that correct? Y/N Apr-28-21 Wednesday CDT 10:48:41 
+[INFO] - {com.bbank.services.CustomerServices} Account Created! Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.dao.impl.BBankImpl} org.postgresql.util.PSQLException: No results were returned by the query. Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} com.bbank.exception.BusinessException Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} Congratulations! Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:48:44 
+[INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:51:59 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+New Customer Sign up.
+ Please enter your First name:  Apr-28-21 Wednesday CDT 10:52:03 
+[INFO] - {com.bbank.services.CustomerServices} 
+-------------------------------------------------------- Apr-28-21 Wednesday CDT 10:52:03 
+[INFO] - {com.bbank.services.CustomerServices} Please enter your Last name:  Apr-28-21 Wednesday CDT 10:52:09 
+[INFO] - {com.bbank.services.CustomerServices} Please create a username:  Apr-28-21 Wednesday CDT 10:52:13 
+[INFO] - {com.bbank.services.CustomerServices} Please create your password:  Apr-28-21 Wednesday CDT 10:52:17 
+[INFO] - {com.bbank.services.CustomerServices} First Name: Smithy, 
+Last Name: Smith, 
+Username: sm ,
+Password: ith. 
+Is this correct? Y/N Apr-28-21 Wednesday CDT 10:52:20 
+[INFO] - {com.bbank.services.CustomerServices} User Created! Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} 
+Redirecting to Customer Menu. New Customers must still apply for a new account. Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:52:24 
+[INFO] - {com.bbank.services.CustomerServices} Invalid Entry! Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} Invalid Entry! Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+Customer Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 
+--------------------------------------------- Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 1. Accounts Menu Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.services.CustomerServices} 2. Apply for new account Apr-28-21 Wednesday CDT 10:54:02 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-28-21 Wednesday CDT 10:54:03 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-28-21 Wednesday CDT 10:54:03 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-28-21 Wednesday CDT 10:54:03 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-28-21 Wednesday CDT 10:54:03 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-28-21 Wednesday CDT 10:54:03 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-28-21 Wednesday CDT 10:54:03 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-28-21 Wednesday CDT 10:54:03 

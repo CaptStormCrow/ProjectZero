@@ -1,26 +1,26 @@
 
-O
-java:S1481U"-Remove this unused "employee" local variable.(Ğ÷è¤úÿÿÿÿ8¬•ã®‘/
+X
+java:S1854R";Remove this useless assignment to local variable "bankDao".(Ç¤šì8îâ®‘/
+I
+java:S1481R",Remove this unused "bankDao" local variable.(Ç¤šì8îâ®‘/
+J
+java:S1481O"-Remove this unused "password" local variable.(ò“Ó8à£Ä¯‘/
 U
 java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊşÿÿÿÿ8ûã±‘/
-]	java:S125B"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8ª¦¨‘/
-w
-java:S1488`"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8µÄ¯‘/
-Y
-java:S1854]"<Remove this useless assignment to local variable "password".(¡Á‹8à£Ä¯‘/
+W
+java:S1128"5Remove this unused import 'com.bbank.model.Customer'.(Ğú®«ÿÿÿÿÿ8“„ì·‘/
 ^
-java:S1854U"<Remove this useless assignment to local variable "employee".(Ğ÷è¤úÿÿÿÿ8îâ®‘/
+java:S1854S"<Remove this useless assignment to local variable "employee".(Ğ÷è¤úÿÿÿÿ8îâ®‘/
+Y
+java:S1854["<Remove this useless assignment to local variable "password".(¡Á‹8à£Ä¯‘/
+]	java:S125@"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8î„ÒÆ‘/
+O
+java:S1481S"-Remove this unused "employee" local variable.(Ğ÷è¤úÿÿÿÿ8¬•ã®‘/
 Y
 java:S1854#"<Remove this useless assignment to local variable "password".(¡Á‹8¾èâ¸‘/
 w
+java:S1488^"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8µÄ¯‘/
+w
 java:S1488)"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8•õé·‘/
-X
-java:S1854T";Remove this useless assignment to local variable "bankDao".(Ç¤šì8îâ®‘/
 J
 java:S1481"-Remove this unused "password" local variable.(ò“Ó8¾èâ¸‘/
-W
-java:S1128"5Remove this unused import 'com.bbank.model.Customer'.(Ğú®«ÿÿÿÿÿ8“„ì·‘/
-I
-java:S1481T",Remove this unused "bankDao" local variable.(Ç¤šì8îâ®‘/
-J
-java:S1481Q"-Remove this unused "password" local variable.(ò“Ó8à£Ä¯‘/

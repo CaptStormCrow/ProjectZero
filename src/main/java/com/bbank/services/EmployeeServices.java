@@ -58,9 +58,7 @@ public class EmployeeServices {
             log.info("2. Approve or deny new accounts");
             log.info("3. Deposit or withdraw");
             log.info("4. Exit");
-
             empMenu = Integer.parseInt(scan.nextLine());
-
             switch (empMenu) {
                 case 1:
 //                    this.employeeAccountMenu(scan);
@@ -98,15 +96,10 @@ public class EmployeeServices {
                 } catch (SQLException e) {
                     log.info(e.getMessage());
                 }
-
-
                 log.info("Signing in.");
                 isSignedIn = true;
                 this.employeeMenu(scan);
             }
         }
-
     }
-
-
 }

@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.bbank.model.Employee;
+import com.bbank.services.CustomerServices;
 import org.apache.log4j.Logger;
 
 public class BBankImpl{
@@ -67,6 +68,7 @@ public class BBankImpl{
 
     public List<Customer> getCustomerByUserName(String username) throws BusinessException {
         Customer customer=null;
+        CustomerServices customerServices=new CustomerServices();
         List<Customer> customerList=new ArrayList<>();
         try(Connection connection = PostgresSqlConnection.getConnection()){
             String sql="select c.firstname, c.lastname, c.accountID from bbank.customer c where c.username=?";
@@ -138,7 +140,6 @@ public class BBankImpl{
             }
         }catch (SQLException | ClassNotFoundException e){
             log.info(e);
-            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
         }
         return accountList;
     }
@@ -154,7 +155,6 @@ public class BBankImpl{
             if(resultSet.next()){
                 employee = new Employee();
                 employee.setEmpname("empname");
-
             }else{
                 throw new BusinessException("No Employee found with Name: "+empname);
             }
@@ -164,6 +164,4 @@ public class BBankImpl{
         }
         return customerList;
     }
-
-
 }
