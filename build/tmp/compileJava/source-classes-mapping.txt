@@ -1,13 +1,9 @@
 com/bbank/model/Customer.java
  com.bbank.model.Customer
-com/bbank/exception/BusinessException.java
- com.bbank.exception.BusinessException
-com/bbank/dao/dbutil/PostgresSqlConnection.java
- com.bbank.dao.dbutil.PostgresSqlConnection
-com/bbank/model/Accounts.java
- com.bbank.model.Accounts
 com/bbank/model/Employee.java
  com.bbank.model.Employee
+com/bbank/dao/dbutil/PostgresSqlConnection.java
+ com.bbank.dao.dbutil.PostgresSqlConnection
 com/bbank/services/EmployeeServices.java
  com.bbank.services.EmployeeServices
 com/bbank/services/BankServices.java
@@ -16,7 +12,11 @@ com/bbank/dao/BBankDAO.java
  com.bbank.dao.BBankDAO
 com/bbank/dao/impl/BBankImpl.java
  com.bbank.dao.impl.BBankImpl
+com/bbank/model/Accounts.java
+ com.bbank.model.Accounts
 com/bbank/services/CustomerServices.java
  com.bbank.services.CustomerServices
+com/bbank/exception/BusinessException.java
+ com.bbank.exception.BusinessException
 com/bbank/MainBank.java
  com.bbank.MainBank

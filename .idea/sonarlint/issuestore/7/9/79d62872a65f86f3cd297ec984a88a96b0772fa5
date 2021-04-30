@@ -1,13 +1,21 @@
 
-C
-java:S1172,"&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
-r
-java:S2095˜"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8’Ä±¸‘/
 q
-java:S2095K"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8Øö¶¦‘/
+java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8êÈñ±‘/
+q
+java:S2095J"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8Øö¶¦‘/
 R
-java:S1481G"5Remove this unused "customerServices" local variable.(ßãµ8„ò¥È‘/
+java:S1481F"5Remove this unused "customerServices" local variable.(ßãµ8„ò¥È‘/
 r
-java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8¹ëýµ‘/
-q
-java:S2095e"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8êÈñ±‘/
+java:S2095—"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8’Ä±¸‘/
+C
+java:S1172+"&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ€ìúÿÿÿÿ8µ÷Å’’/
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8¹ëýµ‘/
+M
+java:S1172"+Remove this unused method parameter "Name".(õ€ìúÿÿÿÿ8µ÷Å’’/
+r
+java:S2095¬"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ÄÊÊ’’/
+V	java:S106¾"9Replace this use of System.out or System.err by a logger.(îÍŽã8ÄÊÊ’’/
+a
+java:S1155º">Use isEmpty() to check whether the collection is empty or not.(—¶¿˜ýÿÿÿÿ8ÄÊÊ’’/

@@ -1,26 +1,67 @@
 
-X
-java:S1854R";Remove this useless assignment to local variable "bankDao".(Ç¤šì8îâ®‘/
-I
-java:S1481R",Remove this unused "bankDao" local variable.(Ç¤šì8îâ®‘/
-J
-java:S1481O"-Remove this unused "password" local variable.(ò“Ó8à£Ä¯‘/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(”„‚ï8ÇÀŠ’’/
+Y
+java:S1854"<Remove this useless assignment to local variable "password".(ÈÂ§É8ùûˆ’’/
+U	java:S106("9Replace this use of System.out or System.err by a logger.(Œ€ÿ8ÇÀŠ’’/
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(¼­Á©8ÇÀŠ’’/
+Y
+java:S1854™";Remove this useless assignment to local variable "bankDao".(Ç¤šì8îâ®‘/
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(™ ¼ˆ8ÇÀŠ’’/
+V
+java:S4973%"9Use the "equals" method if value comparison was intended.(Û±‹³8ã¹‚’’/
 U
 java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊşÿÿÿÿ8ûã±‘/
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.(Ãïşıÿÿÿÿ8ÇÀŠ’’/
+V
+java:S1854"9Remove this useless assignment to local variable "bBank".(ÍÀïÕ8â“³’’/
+J	java:S1085")Either remove or fill this block of code.(¿åÓúÿÿÿÿ8Ù¨Š’’/
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(á£´8ÇÀŠ’’/
+Z
+java:S1155c">Use isEmpty() to check whether the collection is empty or not.(»‘™%8ÇÀŠ’’/
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(³‰à‰ıÿÿÿÿ8ÇÀŠ’’/
 W
 java:S1128"5Remove this unused import 'com.bbank.model.Customer'.(Ğú®«ÿÿÿÿÿ8“„ì·‘/
-^
-java:S1854S"<Remove this useless assignment to local variable "employee".(Ğ÷è¤úÿÿÿÿ8îâ®‘/
-Y
-java:S1854["<Remove this useless assignment to local variable "password".(¡Á‹8à£Ä¯‘/
-]	java:S125@"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8î„ÒÆ‘/
-O
-java:S1481S"-Remove this unused "employee" local variable.(Ğ÷è¤úÿÿÿÿ8¬•ã®‘/
-Y
-java:S1854#"<Remove this useless assignment to local variable "password".(¡Á‹8¾èâ¸‘/
-w
-java:S1488^"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8µÄ¯‘/
-w
-java:S1488)"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8•õé·‘/
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÇÀŠ’’/
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(É˜ú‰ûÿÿÿÿ8ÇÀŠ’’/
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(øˆÀøÿÿÿÿ8ÇÀŠ’’/
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(‚²ùù8ÇÀŠ’’/
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(óÌÊ8ÇÀŠ’’/
+P
+java:S1481š"-Remove this unused "employee" local variable.(Ğ÷è¤úÿÿÿÿ8¬•ã®‘/
+Z	java:S106j"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÇÀŠ’’/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(›ğ‚µûÿÿÿÿ8ÇÀŠ’’/
+_
+java:S1854š"<Remove this useless assignment to local variable "employee".(Ğ÷è¤úÿÿÿÿ8îâ®‘/
+G
+java:S1481"*Remove this unused "bBank" local variable.(ÍÀïÕ8â“³’’/
+Z
+java:S1854¢"<Remove this useless assignment to local variable "password".(¡Á‹8à£Ä¯‘/
 J
-java:S1481"-Remove this unused "password" local variable.(ò“Ó8¾èâ¸‘/
+java:S1481™",Remove this unused "bankDao" local variable.(Ç¤šì8îâ®‘/
+K
+java:S1481–"-Remove this unused "password" local variable.(ò“Ó8à£Ä¯‘/
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÇÀŠ’’/
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(¢ùÈ¢úÿÿÿÿ8ÇÀŠ’’/
+S
+java:S1854"7Remove this useless assignment to local variable "emp".(Äê£=8â“³’’/
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(¸†©ü8ÇÀŠ’’/
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(¬ö úÿÿÿÿÿ8ÇÀŠ’’/
+Z
+java:S1155R">Use isEmpty() to check whether the collection is empty or not.(»‘™%8ÇÀŠ’’/
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(å²–¼8ÇÀŠ’’/
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(¼¡¨ò8ÇÀŠ’’/
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(²ÏàÀûÿÿÿÿ8ÇÀŠ’’/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(ƒÙ€8ÇÀŠ’’/
+x
+java:S1488¥"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8µÄ¯‘/
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÇÀŠ’’/
+U	java:S106q"9Replace this use of System.out or System.err by a logger.(¦ÂÇü8ÇÀŠ’’/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ºáÄÎúÿÿÿÿ8ÇÀŠ’’/
+V
+java:S4973%"9Use the "equals" method if value comparison was intended.(Û±‹³8íí„’’/
+D
+java:S1481"(Remove this unused "emp" local variable.(Äê£=8â“³’’/
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÇÀŠ’’/
+^	java:S125‡"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8î„ÒÆ‘/
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(›áœ¥úÿÿÿÿ8ÇÀŠ’’/

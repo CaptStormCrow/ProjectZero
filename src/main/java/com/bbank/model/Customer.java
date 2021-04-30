@@ -1,38 +1,28 @@
 package com.bbank.model;
 
 public class Customer {
-    private String firstname;
-    private String lastname;
+    private String name;
     private String username;
     private String password;
     private int accountID;
 
-    public Customer(){
+    public Customer() {
 
     }
 
-    public Customer(String firstname, String lastname, String username, String password, int accountID) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+    public Customer(String name, String username, String password, int accountID) {
+        this.name = name;
         this.username = username;
         this.password = password;
-        this.accountID= accountID;
+        this.accountID = accountID;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getUsername() {
@@ -62,11 +52,11 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
+                "name='" + name + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", accountID='" + accountID + '\'' +
+                ", accountID=" + accountID +
                 '}';
     }
 }
+

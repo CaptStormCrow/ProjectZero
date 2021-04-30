@@ -16,23 +16,22 @@ public class BBankImpl{
 
     static Logger log = Logger.getLogger(BBankImpl.class.getName());
 
-    public Customer getCustomerByFirstName(String firstName) throws BusinessException {
+    public Customer getCustomerByName(String Name) throws BusinessException {
         Customer customer=null;
         try(Connection connection = PostgresSqlConnection.getConnection()){
-            String sql="select c.id, c.firstname, c.lastname, c.accountID from bbank.customer c where c.firstname=?";
+            String sql="select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u where u.name=(?)";
             ResultSet resultSet;
             try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
-                preparedStatement.setString(1, firstName);
+                preparedStatement.setString(1, name);
                 resultSet = preparedStatement.executeQuery();
             }
             if(resultSet.next()){
                 customer = new Customer();
-                customer.setFirstname("firstName");
-                customer.setLastname("lastName");
+                customer.setName("name");
                 customer.setUsername("username");
                 customer.setPassword("password");
             }else{
-                throw new BusinessException("No customer found with first name: "+firstName);
+                throw new BusinessException("No customer found with first name: "+name);
             }
         }catch (SQLException | ClassNotFoundException e){
             log.info(e);
@@ -44,7 +43,7 @@ public class BBankImpl{
     public List<Customer> getCustomerByLastName(int id, String firstName, String lastName, String username, String password, int accountID) throws BusinessException {
         List<Customer> customerList=new ArrayList<>();
         try(Connection connection = PostgresSqlConnection.getConnection()){
-            String sql="select c.firstname, c.lastname, c.accountID from bbank.customer c where c.lastname=?";
+            String sql="select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u where u.id=(?)";
             ResultSet resultSet;
             try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
                 preparedStatement.setString(1, lastName);
@@ -71,7 +70,7 @@ public class BBankImpl{
         CustomerServices customerServices=new CustomerServices();
         List<Customer> customerList=new ArrayList<>();
         try(Connection connection = PostgresSqlConnection.getConnection()){
-            String sql="select c.firstname, c.lastname, c.accountID from bbank.customer c where c.username=?";
+            String sql="select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u where u.id=(?)";
             PreparedStatement preparedStatement=connection.prepareStatement(sql);
             preparedStatement.setString(1, username);
             ResultSet resultSet=preparedStatement.executeQuery();
@@ -163,5 +162,34 @@ public class BBankImpl{
             throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
         }
         return customerList;
+    }
+
+    @Override
+    public List<Employee> getAllEmployees() throws BusinessException {
+        List<Employee> employeeList=new ArrayList<>();
+        try(Connection connection= PostgresSqlConnection.getConnection()){
+            String sql="select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u";
+            PreparedStatement preparedStatement=connection.prepareStatement(sql);
+
+            ResultSet resultSet=preparedStatement.executeQuery();
+            while(resultSet.next()){
+                Customer customer=new Customer();
+
+                customer.seti(resultSet.getInt("id"));
+                customer.(resultSet.getInt("age"));
+                customer.setCity(resultSet.getString("city"));
+                customer.setName(resultSet.getString("name"));
+                customer.setGender(resultSet.getString("gender"));
+                customer.setContact(resultSet.getLong("contact"));
+                employeeList.add(customer);
+            }
+            if(employeeList.size()==0){
+                throw new BusinessException("No employee exist in DB as of now");
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            System.out.println(e); //This line will be replaced by logger... This is only for devs not for customers
+            throw new BusinessException("Internal error occured.. Contact sysadmin");
+        }
+        return employeeList;
     }
 }
