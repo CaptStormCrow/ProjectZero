@@ -5390,3 +5390,353 @@ Customer Main Menu. Please select an option:  Apr-30-21 Friday CDT 05:30:30
 [INFO] - {com.bbank.services.CustomerServices} 3. Back Apr-30-21 Friday CDT 05:30:30 
 [INFO] - {com.bbank.services.CustomerServices} Invalid Entry! Apr-30-21 Friday CDT 05:30:30 
 [INFO] - {com.bbank.services.CustomerServices} Thank you. Have a wonderful day. Apr-30-21 Friday CDT 05:30:30 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:34:37 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:34:44 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:34:44 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:34:44 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:34:49 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:34:49 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:34:53 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:34:53 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:34:53 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:34:53 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:36:20 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:36:22 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:36:22 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:36:22 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:36:26 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:36:26 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:36:29 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:36:29 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:36:29 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:36:29 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:36:37 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:36:37 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:36:39 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:36:39 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:36:39 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:36:39 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:37:03 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:37:03 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:37:09 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:37:09 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:37:09 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:37:09 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:38:49 
+[INFO] - {com.bbank.MainBank} Invalid Entry! Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} Thank you. Have a wonderful day. Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:38:54 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:39:01 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:39:01 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:39:01 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:39:06 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:39:06 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:39:09 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:39:09 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:39:09 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:39:09 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:39:15 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:39:15 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:39:19 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:39:19 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:39:19 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:39:19 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:40:33 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:40:36 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:40:36 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:40:36 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:40:40 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:40:40 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:40:43 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:40:43 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:40:43 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:40:43 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:41:19 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:41:22 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:41:22 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:41:22 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:41:23 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:41:23 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:41:25 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:41:25 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:41:25 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:41:25 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:41:25 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:41:25 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:41:28 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:41:28 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:41:28 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:41:28 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:41:32 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:41:32 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:41:35 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:41:35 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:41:35 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:41:35 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:44:11 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:44:14 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:44:14 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:44:14 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:44:19 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:44:19 
+[INFO] - {com.bbank.services.EmployeeServices} Invalid Entry. Please try again. Apr-30-21 Friday CDT 09:44:23 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:44:23 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:44:23 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:44:23 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:45:22 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:45:25 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:45:25 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:45:25 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:45:29 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:45:29 
+[INFO] - {com.bbank.services.EmployeeServices} No employee exist in DB as of now Apr-30-21 Friday CDT 09:45:37 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:47:31 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:47:34 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:47:34 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:47:34 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:47:38 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:47:38 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:48:39 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:48:42 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:48:42 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:48:42 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:48:47 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:48:47 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:50:42 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:50:45 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:50:45 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:50:45 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:50:47 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:50:47 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:53:39 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:53:40 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:53:40 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:53:40 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:53:44 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:53:44 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 09:58:04 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 09:58:07 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 09:58:07 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 09:58:07 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 09:58:08 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 09:58:08 
+[INFO] - {com.bbank.services.EmployeeServices} No employee exist in DB as of now Apr-30-21 Friday CDT 09:58:13 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 10:00:33 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 10:00:37 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 10:00:37 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 10:00:37 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 10:00:38 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 10:00:38 
+[INFO] - {com.bbank.services.EmployeeServices} No employee exist in DB as of now Apr-30-21 Friday CDT 10:00:43 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 10:05:18 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+New Customer Sign up.
+ Please enter your First name:  Apr-30-21 Friday CDT 10:05:23 
+[INFO] - {com.bbank.services.CustomerServices} 
+-------------------------------------------------------- Apr-30-21 Friday CDT 10:05:23 
+[INFO] - {com.bbank.services.CustomerServices} Please create a username:  Apr-30-21 Friday CDT 10:05:27 
+[INFO] - {com.bbank.services.CustomerServices} Please create your password:  Apr-30-21 Friday CDT 10:05:29 
+[INFO] - {com.bbank.services.CustomerServices} What type of account did you you want to set up: (Checking/Savings Apr-30-21 Friday CDT 10:05:31 
+[INFO] - {com.bbank.services.CustomerServices} How much did you want to initially put into the account: Apr-30-21 Friday CDT 10:05:33 
+[INFO] - {com.bbank.services.CustomerServices} Signing in. Apr-30-21 Friday CDT 10:05:35 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+New Customer Sign up.
+ Please enter your First name:  Apr-30-21 Friday CDT 10:05:35 
+[INFO] - {com.bbank.services.CustomerServices} 
+-------------------------------------------------------- Apr-30-21 Friday CDT 10:05:35 
+[INFO] - {com.bbank.services.CustomerServices} Please create a username:  Apr-30-21 Friday CDT 10:05:38 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 10:07:43 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 10:07:46 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 10:07:46 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 10:07:46 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 10:07:47 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 10:07:47 
+[INFO] - {com.bbank.services.EmployeeServices} No employee exist in DB as of now Apr-30-21 Friday CDT 10:07:51 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 10:11:18 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+New Customer Sign up.
+ Please enter your First name:  Apr-30-21 Friday CDT 10:11:31 
+[INFO] - {com.bbank.services.CustomerServices} 
+-------------------------------------------------------- Apr-30-21 Friday CDT 10:11:31 
+[INFO] - {com.bbank.services.CustomerServices} Please create a username:  Apr-30-21 Friday CDT 10:11:34 
+[INFO] - {com.bbank.services.CustomerServices} Please create your password:  Apr-30-21 Friday CDT 10:11:36 
+[INFO] - {com.bbank.services.CustomerServices} What type of account did you you want to set up: (Checking/Savings Apr-30-21 Friday CDT 10:11:39 
+[INFO] - {com.bbank.services.CustomerServices} How much did you want to initially put into the account: Apr-30-21 Friday CDT 10:11:40 
+[INFO] - {com.bbank.services.CustomerServices} Signing in. Apr-30-21 Friday CDT 10:11:44 
+[INFO] - {com.bbank.services.CustomerServices} 
+
+New Customer Sign up.
+ Please enter your First name:  Apr-30-21 Friday CDT 10:11:44 
+[INFO] - {com.bbank.services.CustomerServices} 
+-------------------------------------------------------- Apr-30-21 Friday CDT 10:11:44 
+[INFO] - {com.bbank.MainBank} Welcome to BBank. How can we assist you? Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.MainBank} 
+
+Main Menu. Please select an option:  Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.MainBank} 
+-------------------------------------- Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.MainBank} 1. Accounts Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.MainBank} 2. Apply for new account Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.MainBank} 3. Employee Menu Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.MainBank} 4. Exit Apr-30-21 Friday CDT 10:14:56 
+[INFO] - {com.bbank.services.EmployeeServices} Welcome. Please enter your Employee ID:  Apr-30-21 Friday CDT 10:14:59 
+[INFO] - {com.bbank.services.EmployeeServices} Or type exit to return to main menu. Apr-30-21 Friday CDT 10:14:59 
+[INFO] - {com.bbank.services.EmployeeServices} ------------------------------------- Apr-30-21 Friday CDT 10:14:59 
+[INFO] - {com.bbank.services.EmployeeServices} Please enter your password: Apr-30-21 Friday CDT 10:15:01 
+[INFO] - {com.bbank.services.EmployeeServices} --------------------------- Apr-30-21 Friday CDT 10:15:01 
+[INFO] - {com.bbank.services.EmployeeServices} No employee exist in DB as of now Apr-30-21 Friday CDT 10:15:05 

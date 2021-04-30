@@ -1,21 +1,22 @@
 
+r
+java:S2095Ÿ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ÄÊÊ’’/
 q
-java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8êÈñ±‘/
-q
-java:S2095J"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8Øö¶¦‘/
+java:S2095M"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8êÈñ±‘/
+¦
+java:S1845G"ƒRename method "getCustomerByUserName" to prevent any misunderstanding/clash with method "getCustomerByUsername" defined on line 45.(–…©Éÿÿÿÿÿ8ðõ®™’/
+P
+java:S1481€"-Remove this unused "accounts" local variable.(Äô§ñøÿÿÿÿ8ù’§™’/
+K
+java:S1481›"-Remove this unused "employee" local variable.(Êð­Ä8ÂÍ¦™’/
+r
+java:S2095†"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8Øö¶¦‘/
+H
+java:S1172-"&Remove these unused method parameters.(´Îœ‹üÿÿÿÿ8ÅŠ¯‘/
 R
-java:S1481F"5Remove this unused "customerServices" local variable.(ßãµ8„ò¥È‘/
-r
-java:S2095—"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8’Ä±¸‘/
-C
-java:S1172+"&Remove these unused method parameters.(ø÷”ò8ÅŠ¯‘/
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ€ìúÿÿÿÿ8µ÷Å’’/
-r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8¹ëýµ‘/
-M
-java:S1172"+Remove this unused method parameter "Name".(õ€ìúÿÿÿÿ8µ÷Å’’/
-r
-java:S2095¬"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ÄÊÊ’’/
-V	java:S106¾"9Replace this use of System.out or System.err by a logger.(îÍŽã8ÄÊÊ’’/
+java:S1481I"5Remove this unused "customerServices" local variable.(ßãµ8„ò¥È‘/
 a
-java:S1155º">Use isEmpty() to check whether the collection is empty or not.(—¶¿˜ýÿÿÿÿ8ÄÊÊ’’/
+java:S1155Â">Use isEmpty() to check whether the collection is empty or not.(ž®¿ƒùÿÿÿÿ8é÷¡š’/
+q
+java:S2095h"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8¹ëýµ‘/
+^	java:S125Æ"<This block of commented-out lines of code should be removed.(‘ ‘Òÿÿÿÿÿ8 Ñâš’/

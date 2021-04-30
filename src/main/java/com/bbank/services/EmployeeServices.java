@@ -17,11 +17,9 @@ public class EmployeeServices {
     static Logger log = Logger.getLogger(EmployeeServices.class);
 
 
-    public void employeeSignIn() throws BusinessException {
+    public void employeeSignIn() throws BusinessException, SQLException, ClassNotFoundException {
         int ch = 0;
         boolean isSignedIn = false;
-        String empName = "Emp123";
-        String empPass = "Emp123";
         String username;
         String password = "null";
         BBankImpl bBank = new BBankImpl();
@@ -34,9 +32,13 @@ public class EmployeeServices {
             log.info("Please enter your password:");
             log.info("---------------------------");
             password = scan.nextLine();
-            if (username == empName && password == empPass) {
+
+            if (isSignedIn) {
+                log.info("Invalid Entry. Please try again.");
+                ch = 0;
+            } else {
                 do {
-                    System.out.println("Search Employee Menu");
+                    System.out.println("Employee Menu");
                     System.out.println("--------------------");
                     System.out.println("1)By Id");
                     System.out.println("2)By Name");
@@ -53,21 +55,21 @@ public class EmployeeServices {
                     }catch (NumberFormatException e){}
                     switch (ch){
                         case 1:
-                            System.out.println("Enter Employee Id to get Employee Details");
-                            try {
-                                int id = Integer.parseInt(scan.nextLine());
-                                Employee employee=employeeSearchService.getEmployeeById(id);
-                                if(employee!=null){
-                                    System.out.println("Employee with id "+id+" was found... See below for details");
-                                    System.out.println(employee);
-                                }
-
-                            }catch (NumberFormatException e){
-                                System.out.println("Id should be integer only");
-                            } catch (BusinessException e) {
-                                System.out.println(e.getMessage());
-                            }
-                            break;
+//                            System.out.println("Enter Employee Id to get Employee Details");
+//                            try {
+//                                int id = Integer.parseInt(scan.nextLine());
+//                                Employee employee=employeeSearchService.getEmployeeById(id);
+//                                if(employee!=null){
+//                                    System.out.println("Employee with id "+id+" was found... See below for details");
+//                                    System.out.println(employee);
+//                                }
+//
+//                            }catch (NumberFormatException e){
+//                                System.out.println("Id should be integer only");
+//                            } catch (BusinessException e) {
+//                                System.out.println(e.getMessage());
+//                            }
+//                            break;
                         case 2:
                             break;
                         case 3:
@@ -75,19 +77,19 @@ public class EmployeeServices {
                         case 4:
                             break;
                         case 5:
-                            System.out.println("Enter gender to get all employees of that gender category (M-Male,F-Female,O-Others) enter M or F or O");
-                            String gender=scan.nextLine();
-                            try {
-                                List<Employee> employeeList=employeeSearchService.getEmployeesByGender(gender);
-                                if(employeeList!=null && employeeList.size()>0){
-                                    System.out.println("We have total "+employeeList.size()+" no of employees in DB... Printing the details below for the gender "+gender);
-                                    for(Employee e:employeeList){
-                                        System.out.println(e);
-                                    }
-                                }
-                            } catch (BusinessException e) {
-                                System.out.println(e.getMessage());
-                            }
+//                            System.out.println("Enter gender to get all employees of that gender category (M-Male,F-Female,O-Others) enter M or F or O");
+//                            String gender=scan.nextLine();
+//                            try {
+//                                List<Employee> employeeList=employeeSearchService.getEmployeesByGender(gender);
+//                                if(employeeList!=null && employeeList.size()>0){
+//                                    System.out.println("We have total "+employeeList.size()+" no of employees in DB... Printing the details below for the gender "+gender);
+//                                    for(Employee e:employeeList){
+//                                        System.out.println(e);
+//                                    }
+//                                }
+//                            } catch (BusinessException e) {
+//                                System.out.println(e.getMessage());
+//                            }
                             break;
                         case 6:
                             break;
@@ -95,28 +97,25 @@ public class EmployeeServices {
                             break;
                         case 8:
                             try {
-                                List<Employee> employeeList=employeeSearchService.getAllEmployees();
-                                if(employeeList!=null && employeeList.size()>0){
-                                    System.out.println("We have total "+employeeList.size()+" no of employees in DB... Printing the details below");
-                                    for(Employee e:employeeList){
-                                        System.out.println(e);
+                                List<Customer> customerList= bBank.getAllEmployees();
+                                if(customerList!=null && customerList.size()>0){
+                                    log.info("We have total "+customerList.size()+" no of employees in DB... Printing the details below");
+                                    for(Customer c:customerList){
+                                        log.info(c);
                                     }
                                 }
-                            } catch (BusinessException e) {
-                                System.out.println(e.getMessage());
+                            } catch (BusinessException | SQLException | ClassNotFoundException e) {
+                                log.info(e.getMessage());
                             }
                             break;
                         case 9:
-                            System.out.println("Thank you for using your bank :) ");
+                            log.info("Thank you for using your bank :) ");
                             break;
                         default:
-                            System.out.println("Invalid Input! Please try again.");
+                            log.info("Invalid Input! Please try again.");
 
                     }
                 }while (ch!=9);
-            } else {
-                log.info("Invalid Entry. Please try again.");
-                ch = 0;
             }
         }
     }

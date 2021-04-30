@@ -2,6 +2,8 @@ package com.bbank;
 
 import com.bbank.dao.impl.BBankImpl;
 import com.bbank.exception.BusinessException;
+
+import java.sql.SQLException;
 import java.util.Scanner;
 import com.bbank.services.CustomerServices;
 import com.bbank.services.EmployeeServices;
@@ -10,7 +12,7 @@ import org.apache.log4j.Logger;
 public class MainBank extends BBankImpl {
 
     static Logger log = Logger.getLogger(MainBank.class);
-    public static void main(String[] args) throws BusinessException {
+    public static void main(String[] args) throws BusinessException, SQLException, ClassNotFoundException {
         Scanner scan = new Scanner(System.in);
         log.info("Welcome to BBank. How can we assist you?");
         int mMenu = 0;

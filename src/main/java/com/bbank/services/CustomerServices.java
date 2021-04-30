@@ -6,6 +6,7 @@ import com.bbank.exception.BusinessException;
 import com.bbank.model.Customer;
 import org.apache.log4j.Logger;
 
+import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.util.Scanner;
 
@@ -78,23 +79,26 @@ public class CustomerServices {
         boolean isSignedUp = false;
         String username = null;
         String password = null;
-        String firstname = null;
-        String lastname = null;
+        String name = null;
+        String account = null;
+        BigDecimal balance = null;
         BBankImpl bBank = new BBankImpl();
         while (!isSignedUp) {
             log.info("\n\nNew Customer Sign up.\n Please enter your First name: ");
             log.info("\n--------------------------------------------------------");
-            firstname = scan.nextLine();
-            if (firstname.matches("Exit")) {
+            name = scan.nextLine();
+            if (name.matches("Exit")) {
                 log.info("Returning to Main Menu!");
             } else {
-                log.info("Please enter your Last name: ");
-                lastname = scan.nextLine();
                 log.info("Please create a username: ");
                 username = scan.nextLine();
                 log.info("Please create your password: ");
                 password = scan.nextLine();
-                log.info("First Name: " + firstname + ", \nLast Name: " + lastname + ", \nUsername: " + username + " ,\nPassword: " + password + ". \nIs this correct? Y/N");
+                log.info("What type of account did you you want to set up: (Checking/Savings");
+                account = scan.nextLine();
+                log.info("How much did you want to initially put into the account:");
+//                balance = scan.nextLine();
+//                log.info("First Name: " + name + ", \nUsername: " + username + " ,\nPassword: " + password + ", \n Type of Account: " + accounIs this correct? Y/N");
                 String answer = scan.nextLine();
                 if (answer.matches("[yY]")) {
                     try {
@@ -102,11 +106,9 @@ public class CustomerServices {
                         log.info("\nRedirecting to Customer Menu. New Customers must still apply for a new account.");
                         this.customerMenu(scan);
                         Customer customer = new Customer();
-                        bBank.addCustomer(firstname, lastname, username, password);
+                        bBank.addCustomer(name, username, password, account);
                         customer.setUsername(username);
                         customer.setPassword(password);
-                        customer.setFirstname(firstname);
-                        customer.setLastname(lastname);
                     } catch (BusinessException e) {
                         log.info(e);
                     }

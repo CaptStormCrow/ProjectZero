@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class PostgresSqlConnection {
 
-    private void PostresSqlConnection() {
+    private PostgresSqlConnection() {
     }
 
     private static Connection connection;
