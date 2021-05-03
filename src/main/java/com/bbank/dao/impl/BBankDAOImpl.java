@@ -4,17 +4,22 @@ import com.bbank.dao.dbutil.PostgresSqlConnection;
 import com.bbank.exception.BusinessException;
 import com.bbank.model.Accounts;
 import com.bbank.model.Customer;
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.bbank.model.Employee;
 import com.bbank.services.CustomerServices;
 import org.apache.log4j.Logger;
 
-public class BBankImpl {
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
-    static Logger log = Logger.getLogger(BBankImpl.class.getName());
+public class BBankDAOImpl {
+
+
+
+    static Logger log = Logger.getLogger(BBankDAOImpl.class);
 
     public Customer getCustomerByName(String name) throws BusinessException {
         Customer customer = null;
@@ -31,7 +36,7 @@ public class BBankImpl {
                 customer.setName(resultSet.getString("name"));
                 customer.setUsername(resultSet.getString("username"));
                 customer.setAccount(resultSet.getString("account"));
-                customer.setBalance(resultSet.getBigDecimal("balance"));
+                customer.setBalance(resultSet.getInt("balance"));
             } else {
                 throw new BusinessException("No customer found with first name: " + name);
             }
@@ -42,38 +47,12 @@ public class BBankImpl {
         return customer;
     }
 
-    public List<Customer> getCustomerByUsername(int id, String firstName, String lastName, String username, String password, int accountID) throws BusinessException {
-        List<Customer> customerList = new ArrayList<>();
-        try (Connection connection = PostgresSqlConnection.getConnection()) {
-            String sql = "select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u where u.username=(?)";
-            ResultSet resultSet;
-            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
-                preparedStatement.setString(1, lastName);
-                resultSet = preparedStatement.executeQuery();
-            }
-            if (resultSet.next()) {
-                Customer customer = new Customer();
-                customer.setAccountID(resultSet.getInt("id"));
-                customer.setName(resultSet.getString("name"));
-                customer.setUsername(resultSet.getString("username"));
-                customer.setAccount(resultSet.getString("account"));
-                customer.setBalance(resultSet.getBigDecimal("balance"));
-            } else {
-                throw new BusinessException("No customer found with last name: " + lastName);
-            }
-        } catch (SQLException | ClassNotFoundException e) {
-            log.info(e);
-            throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
-        }
-        return customerList;
-    }
-
     public List<Customer> getCustomerByUserName(String username) throws BusinessException {
         Customer customer = null;
         CustomerServices customerServices = new CustomerServices();
         List<Customer> customerList = new ArrayList<>();
         try (Connection connection = PostgresSqlConnection.getConnection()) {
-            String sql = "select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u where u.id=(?)";
+            String sql = "select u.id,u.name,u.username,u.password, u.account, u.balance from bbank.users u where u.username=(?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -83,29 +62,32 @@ public class BBankImpl {
                 customer.setName(resultSet.getString("name"));
                 customer.setUsername(resultSet.getString("username"));
                 customer.setAccount(resultSet.getString("account"));
-                customer.setBalance(resultSet.getBigDecimal("balance"));
+                customer.setBalance(resultSet.getInt("balance"));
             } else {
                 throw new BusinessException("No customer found with username: " + username);
             }
         } catch (SQLException | ClassNotFoundException e) {
             log.info(e);
             throw new BusinessException("Internal error occurred. Contact SystemAdmin.");
+        }finally {
+
         }
         return customerList;
     }
 
-    public List<Customer> addCustomer(String firstname, String lastname, String username, String password) throws BusinessException {
+    public List<Customer> addCustomer(String name, String username, String password, String account, int balance) throws BusinessException {
         Customer customer = null;
         List<Customer> customerList = new ArrayList<>();
         try (Connection connection = PostgresSqlConnection.getConnection()) {
             String sql = "INSERT INTO bbank.customer\n" +
-                    "(firstname, lastname, username, password)\n" +
-                    "VALUES(?, ?, ?, ?);\n";
+                    "(name, username, password, account, balance)\n" +
+                    "VALUES(?, ?, ?, ?, ?);\n";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, firstname);
-            preparedStatement.setString(2, lastname);
-            preparedStatement.setString(3, username);
-            preparedStatement.setString(4, password);
+            preparedStatement.setString(1, name);
+            preparedStatement.setString(2, username);
+            preparedStatement.setString(3, password);
+            preparedStatement.setString(4, account);
+            preparedStatement.setInt(5, balance);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
                 customer = new Customer();
@@ -113,7 +95,7 @@ public class BBankImpl {
                 customer.setName(resultSet.getString("name"));
                 customer.setUsername(resultSet.getString("username"));
                 customer.setAccount(resultSet.getString("account"));
-                customer.setBalance(resultSet.getBigDecimal("balance"));
+                customer.setBalance(resultSet.getInt("balance"));
             } else {
                 throw new BusinessException("No customer found with username: " + username);
             }
@@ -141,7 +123,7 @@ public class BBankImpl {
                 customer.setName(resultSet.getString("name"));
                 customer.setUsername(resultSet.getString("username"));
                 customer.setAccount(resultSet.getString("account"));
-                customer.setBalance(resultSet.getBigDecimal("balance"));
+                customer.setBalance(resultSet.getInt("balance"));
             } else {
                 throw new BusinessException("No account found");
             }
@@ -165,7 +147,7 @@ public class BBankImpl {
                 customer.setName(resultSet.getString("name"));
                 customer.setUsername(resultSet.getString("username"));
                 customer.setAccount(resultSet.getString("account"));
-                customer.setBalance(resultSet.getBigDecimal("balance"));
+                customer.setBalance(resultSet.getInt("balance"));
             } else {
                 throw new BusinessException("No Employee found with Name: " + empname);
             }
@@ -189,7 +171,7 @@ public class BBankImpl {
                     customer.setUsername(resultSet.getString("username"));
                     customer.setAccount(resultSet.getString("account"));
                     customer.setPassword(resultSet.getString("password"));
-                    customer.setBalance(resultSet.getBigDecimal("balance"));
+                    customer.setBalance(resultSet.getInt("balance"));
                 }
                 if (customerList.size() == 0) {
                     throw new BusinessException("No employee exist in DB as of now");

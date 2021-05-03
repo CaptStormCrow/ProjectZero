@@ -1,7 +1,7 @@
 package com.bbank.services;
 
-import com.bbank.MainBank;
-import com.bbank.dao.impl.BBankImpl;
+import com.bbank.dao.BBankDAO;
+import com.bbank.dao.impl.BBankDAOImpl;
 import com.bbank.exception.BusinessException;
 import com.bbank.model.Customer;
 import org.apache.log4j.Logger;
@@ -19,7 +19,7 @@ public class CustomerServices {
         int startMenu = 0;
         do {
             try {
-                log.info("\n\nCustomer Main Menu. Please select an option: ");
+                log.info("\n\nCustomer Main Menu.\n Please select an option: ");
                 log.info("\n---------------------------------------------");
                 log.info("1. Accounts Menu");
                 log.info("2. Apply for new account");
@@ -46,7 +46,7 @@ public class CustomerServices {
         boolean isSignedIn = false;
         String password = null;
         String username = null;
-        BBankImpl bBank = new BBankImpl();
+        BBankDAOImpl bBankDAO=new BBankDAOImpl();
         while (!isSignedIn) {
             Customer cust = new Customer();
             log.info("\n\nWelcome back. Please enter username: ");
@@ -59,7 +59,7 @@ public class CustomerServices {
                 log.info("\nThank you, " + username + " . Enter your password");
                 password = scan.nextLine();
                 try {
-                    bBank.getCustomerByUserName(username);
+                    bBankDAO.getCustomerByUserName(username);
                     cust.getUsername();
                     cust.getPassword();
                     Exception ex1 = new BusinessException();
@@ -81,8 +81,7 @@ public class CustomerServices {
         String password = null;
         String name = null;
         String account = null;
-        BigDecimal balance = null;
-        BBankImpl bBank = new BBankImpl();
+        int balance = 0;
         while (!isSignedUp) {
             log.info("\n\nNew Customer Sign up.\n Please enter your First name: ");
             log.info("\n--------------------------------------------------------");
@@ -97,24 +96,25 @@ public class CustomerServices {
                 log.info("What type of account did you you want to set up: (Checking/Savings");
                 account = scan.nextLine();
                 log.info("How much did you want to initially put into the account:");
-//                balance = scan.nextLine();
-//                log.info("First Name: " + name + ", \nUsername: " + username + " ,\nPassword: " + password + ", \n Type of Account: " + accounIs this correct? Y/N");
+                balance = Integer.parseInt(scan.nextLine());
+                log.info("First Name: " + name + ", \nUsername: " + username + " ,\nPassword: " + password + ", \n Type of Account: " + account+"\n Is this correct? Y/N");
                 String answer = scan.nextLine();
                 if (answer.matches("[yY]")) {
                     try {
                         log.info("User Created!");
                         log.info("\nRedirecting to Customer Menu. New Customers must still apply for a new account.");
-                        this.customerMenu(scan);
                         Customer customer = new Customer();
-                        bBank.addCustomer(name, username, password, account);
                         customer.setUsername(username);
                         customer.setPassword(password);
+                        this.customerMenu(scan);
                     } catch (BusinessException e) {
                         log.info(e);
                     }
                     isSignedUp = true;
                 }
                 log.info("Signing in.");
+                this.customerMenu(scan);
+
             }
         }
     }
@@ -123,7 +123,7 @@ public class CustomerServices {
         int custMenu = 0;
         do {
             try {
-                log.info("\n\nCustomer Account Menu. Please select an option: ");
+                log.info("\n\nCustomer Account Menu.\n Please select an option: ");
                 log.info("\n----------------------------------------------------");
                 log.info("1. Accounts");
                 log.info("2. Open new accounts");
@@ -154,7 +154,7 @@ public class CustomerServices {
         boolean newAcct = false;
         String typeOfAccount = null;
         int amount = 0;
-        BBankImpl bBank = new BBankImpl();
+        BBankDAOImpl bBankDAO=new BBankDAOImpl();
         while (!newAcct) {
             log.info("\nNew Account Creation.");
             log.info("\n---------------------");
@@ -170,7 +170,7 @@ public class CustomerServices {
                 if (correct.matches("[yY]")) {
                     try {
                         log.info("Account Created!");
-                        bBank.addAccount(typeOfAccount, amount);
+                        bBankDAO.addAccount(typeOfAccount, amount);
                         throw new BusinessException();
                     } catch (BusinessException e) {
                         log.info(e);

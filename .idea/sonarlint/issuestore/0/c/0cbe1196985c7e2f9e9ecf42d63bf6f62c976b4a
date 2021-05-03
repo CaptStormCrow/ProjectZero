@@ -1,0 +1,19 @@
+
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¢†Şõ’/
+q
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¢†Şõ’/
+K
+java:S1481‰"-Remove this unused "employee" local variable.(Êğ­Ä8¢†Şõ’/
+R
+java:S14814"5Remove this unused "customerServices" local variable.(ßãµ8¢†Şõ’/
+E	java:S108H")Either remove or fill this block of code.(Úîø›8’ïÅö’/
+q
+java:S2095t"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¢†Şõ’/
+^	java:S125´"<This block of commented-out lines of code should be removed.(‘ ‘Òÿÿÿÿÿ8¢†Şõ’/
+O
+java:S1481n"-Remove this unused "accounts" local variable.(Äô§ñøÿÿÿÿ8¢†Şõ’/
+q
+java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¢†Şõ’/
+a
+java:S1155°">Use isEmpty() to check whether the collection is empty or not.(®¿ƒùÿÿÿÿ8€€÷’/

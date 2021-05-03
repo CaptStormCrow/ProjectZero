@@ -1,0 +1,25 @@
+
+`
+java:S1155z">Use isEmpty() to check whether the collection is empty or not.(ÛÒý³ûÿÿÿÿ8ìçèø’/
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(°«½‚þÿÿÿÿ8äðÌ÷’/
+W	java:S125e"<This block of commented-out lines of code should be removed.(Æýñ-8ìçèø’/
+X
+java:S1128"<Remove this unused import 'com.bbank.services.BankServices'.(¹ôÜ8‚îÈ÷’/
+\
+java:S1854"?Remove this useless assignment to local variable "empServices".(öæ•Ý8ðÞÊ÷’/
+M
+java:S1481"0Remove this unused "empServices" local variable.(öæ•Ý8ðÞÊ÷’/
+X	java:S125"<This block of commented-out lines of code should be removed.(¨ÍœÉ8ˆ‰Æ÷’/
+U
+java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊþÿÿÿÿ8úÉö’/
+V
+java:S4973>"9Use the "equals" method if value comparison was intended.(îŠÎ“8äðÌ÷’/
+^
+java:S18542"<Remove this useless assignment to local variable "username".(îé°Ôùÿÿÿÿ8äðÌ÷’/
+M
+java:S1481@"+Remove this unused "choice" local variable.(ÖÝÃ¹ùÿÿÿÿ8—ÎÝ÷’/
+V
+java:S4973>"9Use the "equals" method if value comparison was intended.(îŠÎ“8äðÌ÷’/
+^
+java:S18543"<Remove this useless assignment to local variable "password".(ò­²­úÿÿÿÿ8äðÌ÷’/

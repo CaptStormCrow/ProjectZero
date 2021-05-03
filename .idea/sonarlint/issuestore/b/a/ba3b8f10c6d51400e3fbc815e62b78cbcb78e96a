@@ -1,7 +1,7 @@
 
-K
-java:S1121".Extract the assignment out of this expression.(«ÑÀÙ8ßÒ˜¯‘/
-{
-java:S1450"YRemove the "connection" field and declare it as a local variable in the relevant methods.(’çù†ûÿÿÿÿ8ßÒ˜¯‘/
 O
 java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8ßÒ˜¯‘/
+{
+java:S1450"YRemove the "connection" field and declare it as a local variable in the relevant methods.(’çù†ûÿÿÿÿ8ßÒ˜¯‘/
+K
+java:S1121".Extract the assignment out of this expression.(«ÑÀÙ8ßÒ˜¯‘/

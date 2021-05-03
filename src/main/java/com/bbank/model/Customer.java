@@ -8,13 +8,13 @@ public class Customer {
     private String password;
     private int accountID;
     private String account;
-    private BigDecimal balance;
+    private int balance;
 
     public Customer() {
 
     }
 
-    public Customer(String name, String username, String password, int accountID, String account, BigDecimal balance) {
+    public Customer(String name, String username, String password, int accountID, String account, int balance) {
         this.name = name;
         this.username = username;
         this.password = password;
@@ -63,11 +63,11 @@ public class Customer {
         this.account = account;
     }
 
-    public BigDecimal getBalance() {
+    public int getBalance() {
         return balance;
     }
 
-    public void setBalance(BigDecimal balance) {
+    public void setBalance(int balance) {
         this.balance = balance;
     }
 

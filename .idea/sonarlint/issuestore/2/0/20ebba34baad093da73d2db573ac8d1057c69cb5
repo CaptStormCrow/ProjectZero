@@ -1,51 +1,9 @@
 
-J
-java:S1481"-Remove this unused "username" local variable.(™ä°­8ÚŸõ™’/
-U	java:S106/"9Replace this use of System.out or System.err by a logger.(”„‚ï8Âôã™’/
-Z
-java:S1854¡"<Remove this useless assignment to local variable "password".(¡Á‹8à£Ä¯‘/
-P
-java:S1481™"-Remove this unused "employee" local variable.(Ð÷è¤úÿÿÿÿ8¬•ã®‘/
-`
-java:S1155e">Use isEmpty() to check whether the collection is empty or not.(ÛÒý³ûÿÿÿÿ8øà¤š’/
-U	java:S106."9Replace this use of System.out or System.err by a logger.(¸†©ü8Âôã™’/
-Y
-java:S1854""<Remove this useless assignment to local variable "password".(¡Á‹8ÚŸõ™’/
-S
-java:S1854"7Remove this useless assignment to local variable "emp".(Äê£=8â“³’’/
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(Œ€ÿ8Âôã™’/
-J	java:S1087")Either remove or fill this block of code.(¿åÓúÿÿÿÿ8Æ·ã™’/
-J
-java:S1481˜",Remove this unused "bankDao" local variable.(Ç¤šì8îâ®‘/
-U	java:S1064"9Replace this use of System.out or System.err by a logger.(‚²ùù8Âôã™’/
-U	java:S1061"9Replace this use of System.out or System.err by a logger.(å²–¼8Âôã™’/
-]	java:S125:"<This block of commented-out lines of code should be removed.(§¤šüÿÿÿÿ8Âôã™’/
-U	java:S1062"9Replace this use of System.out or System.err by a logger.(ƒÙ€8Âôã™’/
-Z	java:S106,"9Replace this use of System.out or System.err by a logger.(¬ö úÿÿÿÿÿ8Âôã™’/
-Z	java:S1060"9Replace this use of System.out or System.err by a logger.(²ÏàÀûÿÿÿÿ8Âôã™’/
 U
-java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊþÿÿÿÿ8ûã±‘/
-Y
-java:S1854˜";Remove this useless assignment to local variable "bankDao".(Ç¤šì8îâ®‘/
-Z	java:S106+"9Replace this use of System.out or System.err by a logger.(›ð‚µûÿÿÿÿ8Âôã™’/
-Y
-java:S1854"<Remove this useless assignment to local variable "password".(ÈÂ§É8ùûˆ’’/
-x
-java:S1488¤"ZImmediately throw this expression instead of assigning it to the temporary variable "ex2".(‡Â¨Ÿ8µÄ¯‘/
-_
-java:S1854™"<Remove this useless assignment to local variable "employee".(Ð÷è¤úÿÿÿÿ8îâ®‘/
-D
-java:S1481"(Remove this unused "emp" local variable.(Äê£=8â“³’’/
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(á£´8Âôã™’/
-J
-java:S1481"-Remove this unused "password" local variable.(ÈÂ§É8ÚŸõ™’/
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ºáÄÎúÿÿÿÿ8Âôã™’/
-K
-java:S1481•"-Remove this unused "password" local variable.(ò“Ó8à£Ä¯‘/
-^	java:S125†"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8î„ÒÆ‘/
-Y
-java:S1854"<Remove this useless assignment to local variable "username".(ÄöŠî8ÚŸõ™’/
-Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Ÿƒ€ÿÿÿÿÿ8Âôã™’/
-]	java:S125P"<This block of commented-out lines of code should be removed.(æ¦«Žûÿÿÿÿ8Âôã™’/
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ûÖù8Âôã™’/
+java:S1128"3Remove this unused import 'com.bbank.dao.BBankDAO'.(æ¥ÇÊþÿÿÿÿ8¬ëÑö’/
+]	java:S125"<This block of commented-out lines of code should be removed.(È™·Óùÿÿÿÿ8î„ÒÆ‘/
+W
+java:S1128"5Remove this unused import 'com.bbank.model.Customer'.(Ðú®«ÿÿÿÿÿ8ø¯Ð÷’/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ø¯Ð÷’/
+X	java:S125+"<This block of commented-out lines of code should be removed.(Ôðñ¶8ø¯Ð÷’/
